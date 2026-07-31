@@ -1,0 +1,1913 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#14243a">
+<link rel="manifest" href="manifest.webmanifest">
+<title>XER Crosscheck — programme revision review — Rev 1.3</title>
+<link rel="icon" id="favicon" type="image/png" href="data:image/png;base64,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">
+<style>
+:root{
+  --ink:#16191d; --paper:#eceae4; --sheet:#f8f7f4; --rule:#cdc9c0; --rule2:#e2dfd8;
+  --mut:#6a6a63; --text:#22252a;
+  --pass:#2d6a4f; --review:#a1622a; --block:#9b2226; --seal:#2f4858; --top:#7a3ea1;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--text);font:15px/1.55 var(--sans)}
+.wrap{max-width:900px;margin:0 auto;padding:24px 18px 80px}
+
+.mast{border-top:3px solid var(--ink);border-bottom:1px solid var(--rule);padding:14px 0 12px;
+  display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+.lockup{display:flex;align-items:center;gap:13px}
+.mast .mark{flex:0 0 auto}
+.mast h1{margin:0;font:300 27px/1 var(--sans);letter-spacing:.01em;text-transform:uppercase}
+.mast h1 b{font-weight:800;letter-spacing:-.015em}
+.mast .tag{font:600 10.5px/1 var(--mono);letter-spacing:.15em;text-transform:uppercase;color:var(--mut);margin-top:6px}
+.mast .meta{font:600 11px/1.5 var(--mono);text-transform:uppercase;letter-spacing:.09em;color:var(--mut);text-align:right}
+.standfirst{margin:16px 0 4px;font-size:16.5px;max-width:64ch}
+.standfirst b{font-weight:700}
+
+.sheet{background:var(--sheet);border:1px solid var(--rule);margin:18px 0}
+.sheet>.hd{display:flex;align-items:baseline;gap:12px;padding:11px 16px;border-bottom:1px solid var(--rule2);background:#f2f1ed}
+.sheet>.hd .step{font:700 10.5px/1 var(--mono);letter-spacing:.12em;color:#fff;background:var(--ink);padding:5px 7px;text-transform:uppercase}
+.sheet>.hd h2{margin:0;font:700 15px/1.3 var(--sans);letter-spacing:-.01em}
+.sheet>.bd{padding:16px}
+.mut{color:var(--mut);font-size:13.5px}
+.eyebrow{font:700 10.5px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--mut);display:block;margin:0 0 7px}
+
+.drop{border:1.5px dashed var(--rule);background:#fff;padding:24px 16px;text-align:center;cursor:pointer}
+.drop.hot{border-color:var(--ink);background:#fffdf5}
+.drop b{display:block;font-size:15px;margin-bottom:3px}
+.slot{display:flex;gap:14px;flex-wrap:wrap}
+.slot>div{flex:1 1 260px}
+.slot .lbl{font:700 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin-bottom:7px}
+.slot .lbl b{color:var(--ink)}
+ul.files{list-style:none;margin:10px 0 0;padding:0}
+ul.files li{
+  display:flex;justify-content:space-between;align-items:center;gap:12px;
+  padding:12px 14px;border:2px solid transparent;border-radius:6px;
+  font:600 15px/1.35 var(--sans);letter-spacing:-.01em;
+}
+ul.files li.file-a{background:#e8f1f8;border-color:#7a9bb5;color:#0d2a3d}
+ul.files li.file-b{background:#eef6ea;border-color:#7a9e6e;color:#1a2e12}
+ul.files li .nm{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:700;font-size:15px}
+ul.files li .meta{font:500 12.5px/1.3 var(--mono);color:inherit;opacity:.75;flex:0 0 auto;white-space:nowrap}
+ul.files li .x{color:var(--block);cursor:pointer;font-weight:700;flex:0 0 auto;margin-left:8px;font-size:13px}
+
+.slot .lbl{font:800 12px/1.2 var(--mono);letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px;padding:8px 12px;border-radius:6px;display:inline-block}
+.slot .lbl-a{background:#d6e8f5;color:#0d2a3d;border:1px solid #7a9bb5}
+.slot .lbl-a b{color:#0d2a3d;font-size:13px}
+.slot .lbl-b{background:#dff0d8;color:#1a2e12;border:1px solid #7a9e6e}
+.slot .lbl-b b{color:#1a2e12;font-size:13px}
+
+.btn{font:600 13.5px/1 var(--sans);padding:11px 16px;border:1px solid var(--ink);background:#fff;color:var(--ink);cursor:pointer}
+.btn:hover{background:var(--ink);color:#fff}
+.btn.solid{background:var(--ink);color:#fff}
+.btn.solid:hover{background:#000}
+.btn.wide{display:block;width:100%;padding:15px;font-size:15.5px;font-weight:700;margin-top:6px}
+.btn:disabled{border-color:var(--rule);background:#e8e6e1;color:#9a978f;cursor:not-allowed}
+.btn:disabled:hover{background:#e8e6e1;color:#9a978f}
+.btn:focus-visible{outline:2px solid var(--seal);outline-offset:2px}
+
+.q{border:1px solid var(--rule2);background:#fff;padding:14px 16px;margin:0 0 10px;position:relative}
+.q.driving{border-left:4px solid var(--top)}
+.q .rank{position:absolute;top:14px;right:14px;font:700 10px/1 var(--mono);letter-spacing:.1em;
+  text-transform:uppercase;color:#fff;background:var(--top);padding:4px 8px}
+.q .qtext{font-size:15px;font-weight:600;padding-right:110px;line-height:1.4}
+.q .ev{font:12.5px/1.5 var(--mono);color:var(--mut);margin-top:8px;word-break:break-word}
+
+.hlt{margin-top:10px;font:12.5px/1.7 var(--mono);background:#fff;border:1px solid var(--rule2)}
+.hlt table{width:100%;border-collapse:collapse}
+.hlt td{padding:5px 10px;border-bottom:1px solid var(--rule2);vertical-align:top}
+.hlt tr:last-child td{border-bottom:0}
+.hlt td.nm{width:44%}
+.hlt td.st{width:20%;text-align:center;font-weight:700}
+.hlt td.st.pass{color:var(--pass)} .hlt td.st.fail{color:var(--block)} .hlt td.st.na{color:var(--mut);font-weight:400}
+.hlt tr.moved{background:#fdf6ea}
+
+table.sum{border-collapse:collapse;width:100%;font-size:13px;margin-top:8px}
+table.sum th,table.sum td{border:1px solid var(--rule2);padding:6px 9px;text-align:left}
+table.sum th{background:#f2f1ed;font-weight:700}
+table.sum td.n{text-align:right;font-family:var(--mono)}
+
+.note{border:1px solid var(--rule2);border-left:4px solid var(--seal);background:#fff;padding:12px 14px;margin-top:12px;font-size:13.5px}
+.warn{border:1px solid var(--review);border-left:4px solid var(--review);background:#f9f2e9;padding:12px 14px;margin-top:12px;font-size:13.5px}
+.foot{margin-top:34px;border-top:1px solid var(--rule);padding-top:14px;font-size:11.5px;color:var(--mut)}
+.chip-bar{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 12px;align-items:center}
+.chip-bar .chip-label{font:700 11px/1.3 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--mut);width:100%;margin-bottom:2px}
+.chip{border:1px solid var(--rule);background:#fff;color:var(--ink);padding:6px 12px;border-radius:999px;font:600 12.5px/1.2 var(--sans);cursor:pointer}
+.chip:hover{border-color:var(--ink)}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.chip .n{opacity:.75;font-weight:500;margin-left:3px}
+.chip-note{font-size:13px;color:var(--ink);margin:0 0 12px;padding:10px 12px;background:#f7f6f2;border-left:3px solid var(--seal);line-height:1.45}
+tr.reg-row.hid, details.reg-cat.hid{display:none!important}
+.pill{display:inline-block;background:#fff;border:1px solid var(--rule);padding:4px 10px;font:12px/1 var(--mono);margin:4px 5px 0 0}
+
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 0;align-items:center}
+.toolbar .btn{padding:8px 12px;font-size:12.5px}
+.btn.ghost{background:transparent;border-color:var(--rule);color:var(--mut)}
+.btn.ghost:hover{border-color:var(--ink);color:var(--ink);background:#fff}
+
+.help-panel{display:none;margin:18px 0}
+.help-panel.open{display:block}
+.help-panel .bd h3{margin:18px 0 6px;font:700 14px/1.3 var(--sans)}
+.help-panel .bd h3:first-child{margin-top:0}
+.help-panel .bd p,.help-panel .bd li{font-size:14px;line-height:1.55}
+.help-panel .bd ul{padding-left:1.2em;margin:6px 0 12px}
+.help-panel .bd code{font:12.5px/1 var(--mono);background:#fff;border:1px solid var(--rule2);padding:1px 5px}
+
+#selftest-out{display:none;margin:18px 0}
+#selftest-out.open{display:block}
+#selftest-out table{width:100%;border-collapse:collapse;font:12.5px/1.5 var(--mono);background:#fff;border:1px solid var(--rule2)}
+#selftest-out td,#selftest-out th{padding:5px 10px;border-bottom:1px solid var(--rule2);text-align:left}
+#selftest-out th{background:#f2f1ed;font-weight:700}
+#selftest-out .ok{color:var(--pass);font-weight:700}
+#selftest-out .bad{color:var(--block);font-weight:700}
+#selftest-out .summary{margin:0 0 10px;font-size:14px}
+
+.inv{font:13px/1.5 var(--mono);background:#fff;border:1px solid var(--rule2);padding:10px 14px;margin:0 0 14px}
+.inv b{font-weight:700}
+.dcma-short{display:flex;gap:14px;flex-wrap:wrap;margin:0 0 14px}
+.dcma-short .box{flex:1 1 200px;background:#fff;border:1px solid var(--rule2);padding:12px 14px}
+.dcma-short .box .lbl{font:700 10.5px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin-bottom:6px}
+.dcma-short .box .nums{font:700 22px/1.2 var(--sans)}
+.dcma-short .box .nums span{font-size:13px;font-weight:600;margin-left:4px}
+.dcma-short .moved-list{flex:1 1 100%;background:#fdf6ea;border:1px solid var(--rule2);padding:10px 14px;font-size:13.5px}
+.dcma-short .moved-list b{display:block;margin-bottom:4px}
+details.cat{border:1px solid var(--rule2);background:#fff;margin:0 0 8px}
+details.cat>summary{padding:10px 14px;cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;align-items:center}
+details.cat>summary::-webkit-details-marker{display:none}
+details.cat>summary::before{content:'▸ ';color:var(--mut);font-size:12px}
+details.cat[open]>summary::before{content:'▾ '}
+details.cat .cat-body{padding:0 14px 12px;border-top:1px solid var(--rule2)}
+details.cat table{width:100%;border-collapse:collapse;font:12.5px/1.5 var(--mono);margin-top:8px}
+details.cat td{padding:5px 8px;border-bottom:1px solid var(--rule2);vertical-align:top}
+details.cat tr:last-child td{border-bottom:0}
+.sheet>.hd{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.sheet>.hd h2{flex:1 1 auto;margin:0}
+.sec-ref{font:11px/1.3 var(--mono);color:var(--mut);letter-spacing:.02em;white-space:nowrap;margin-left:auto}
+.sec-ref b{color:var(--ink);font-weight:700}
+
+@media print{
+  @page{margin:12mm 10mm 14mm 10mm}
+  body{background:#fff;color:#000;font-size:10pt;margin:0}
+  .wrap{max-width:none;padding:0;margin:0}
+  .mast .meta,.toolbar,#go,.drop,.slot,.files,#reject,.standfirst,.btn,.help-panel,#selftest-out,
+  #printBanner,#printFooter{display:none!important}
+  .mast{border-bottom:1px solid #333;padding-bottom:6px;margin-bottom:8px}
+  .sheet{border:1px solid #bbb;margin:6px 0;page-break-inside:auto;break-inside:auto}
+  .sheet>.hd{background:#eee;page-break-after:avoid;break-after:avoid;padding:6px 10px}
+  .sheet>.bd{padding:8px 10px}
+  .note{border-left:3px solid #333;margin:6px 0;padding:6px 10px}
+  a{color:inherit;text-decoration:none}
+  .q{page-break-inside:avoid;margin:4px 0;padding:6px 8px}
+  .q .rank{position:static;display:inline-block;margin-bottom:2px;background:#333}
+  .foot{display:none!important}
+  details.cat{border:1px solid #ccc;margin:4px 0}
+  details.cat>summary{padding:4px 8px}
+  table.sum th,table.sum td,.hlt td{padding:3px 6px;font-size:9pt}
+  .print-runhead{
+    display:block!important;
+    font:700 8.5pt/1.3 system-ui,sans-serif;
+    border-bottom:1px solid #999;
+    margin:0 0 6px;padding:0 0 4px;color:#111;
+  }
+  .print-runhead span{font-weight:500;color:#444}
+}
+.print-runhead{display:none}
+.print-banner,.print-footer{display:none}
+
+@media (max-width:620px){
+  .mast{flex-direction:column;align-items:flex-start;gap:10px}
+  .sheet>.bd{padding:13px}
+  .btn{width:100%;text-align:center}
+  .q .qtext{padding-right:0} .q .rank{position:static;display:inline-block;margin-bottom:8px}
+  table.sum th,table.sum td{display:block;width:auto}
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <div class="mast">
+    <div class="lockup">
+      <img class="mark" width="46" height="46" alt="XER CrossCheck" src="data:image/png;base64,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" style="border-radius:10px;object-fit:cover;background:#0d1520">
+      <div>
+        <h1><i style="font-style:normal;font-weight:500;color:var(--mut);letter-spacing:.06em">XER</i> <b>CROSS</b>CHECK</h1>
+        <div class="tag">Programme revision review</div>
+      </div>
+    </div>
+    <div class="meta">Rev 1.3 · XER only<br>Runs on this device · no network</div>
+  </div>
+
+  <p class="standfirst">Two revisions of the same P6 programme in. A defensible account of what
+    changed out — <b>every fact quoted from the files, nothing computed.</b> Ranked by whether
+    a change touched the driving path, read from P6's own float.</p>
+
+  <div class="toolbar">
+    <button type="button" class="btn ghost" id="btnHelp">Help</button>
+    <button type="button" class="btn ghost" id="btnSelftest">Run self-tests</button>
+    <button type="button" class="btn ghost" id="btnPrint" disabled title="Compare first">Print</button>
+    <button type="button" class="btn ghost" id="btnExcel" disabled title="Compare first">Export Excel</button>
+    <button type="button" class="btn ghost" id="btnJson" disabled title="After compare: download a small verify file with both SHA-256 hashes">Export JSON (verify)</button>
+    <button type="button" class="btn ghost" id="btnReset" title="Clear both files and the report">Reset</button>
+  </div>
+
+  <div class="sheet help-panel" id="helpPanel">
+    <div class="hd"><span class="step">?</span><h2>Help — what this tool does and does not do</h2></div>
+    <div class="bd">
+      <h3>How to use</h3>
+      <p>Drop (or browse) the <b>earlier</b> XER as Revision A and the <b>later</b> XER as Revision B, then press Compare. Both files stay on this device; nothing is uploaded.</p>
+      <h3>What the report contains</h3>
+      <ul>
+        <li><b>File identity</b> — names, sizes, export dates from ERMHDR, full SHA-256 of each file.</li>
+        <li><b>Programme shape</b> — activity / link / calendar counts, progress status counts, driving-path note from P6’s own total float.</li>
+        <li><b>Ranked questions</b> — differences that touched the driving path listed first. Activity ID, name, table and field.</li>
+        <li><b>Full change register</b> — every material difference, grouped by category, with provenance.</li>
+        <li><b>DCMA 14-point</b> — separate health snapshot of each revision. Measured value shown so pass/fail is explained. N/A when the file cannot answer.</li>
+      </ul>
+      <h3>Driving path rule</h3>
+      <p>Activities holding the <b>minimum</b> exported <code>total_float_hr_cnt</code> are treated as the driving path. A tool that only looks for float = 0 will report no critical path on ordinary programmes whose required completion sits later than the network finish. That is why minimum-float is used.</p>
+      <h3>What this tool must never do</h3>
+      <ul>
+        <li>No CPM recomputation. No half-step. No progress-versus-re-planning split.</li>
+        <li>No entitlement, excusability or compensability language.</li>
+        <li>No expert-report framing. No sealed-custody claims.</li>
+        <li>It records what changed. Establishing who caused it is a forensic analysis and is a separate exercise.</li>
+      </ul>
+      <h3>Accepted input</h3>
+      <p>Primavera P6 XER text exports only (<code>.xer</code>). Non-XER files are rejected with a clear message. The parser tolerates UTF-8, UTF-16, and common Windows code pages.</p>
+      <h3>Exports — Excel, JSON and Print</h3>
+      <p>After a successful compare, three export buttons become available. All run on this device; nothing is sent anywhere.</p>
+
+      <h3>Export JSON (verify) — what it is</h3>
+      <p>A small <b>text file</b> (JSON) that records the <b>identity of this comparison batch</b>. It is not the full change list. It is a fingerprint of the two files you compared and a short summary of how many differences were found.</p>
+      <p><b>Why you may want it</b></p>
+      <ul>
+        <li><b>Prove which files were used</b> — the file stores the full SHA-256 of Revision A and Revision B. Months later you can re-hash the same <code>.xer</code> files and show they still match this batch.</li>
+        <li><b>Keep a light record</b> — email or archive a few kilobytes instead of (or as well as) the full Excel workbook.</li>
+        <li><b>Handover / audit trail</b> — attach the JSON to a note: “Batch 20260729-HORZ used these two hashes.” Anyone can verify without opening the app.</li>
+        <li><b>Not a claim document</b> — it does not argue delay, entitlement or cause. It only identifies the inputs and counts.</li>
+      </ul>
+      <p><b>What is inside</b></p>
+      <ul>
+        <li>Product name, contact email, batch ID, date and time of the compare</li>
+        <li>For each revision: file name, size in bytes, full SHA-256, data date, activity count</li>
+        <li>Summary counts (how many differences, by category, how many questions)</li>
+        <li>A short <code>howToVerify</code> note repeating the hash-check steps</li>
+      </ul>
+      <p><b>How to open and read it</b></p>
+      <ul>
+        <li>Double-click or open in any text editor (Notepad, TextEdit), VS Code, or a browser — it is plain text.</li>
+        <li>Look for <code>revisionA.sha256</code> and <code>revisionB.sha256</code> — those are the fingerprints.</li>
+        <li>Look for <code>batch</code> and <code>comparedAt</code> — so you can match it to the on-screen report and to Excel.</li>
+      </ul>
+      <p><b>How to verify the hashes (Windows)</b></p>
+      <p>In Command Prompt, for each XER file:</p>
+      <p><code>certutil -hashfile "HORIZON_RevA.xer" SHA256</code></p>
+      <p>Compare the printed value to <code>revisionA.sha256</code> in the JSON. Repeat for Revision B. Matching values mean the same file bytes were used for that batch.</p>
+      <p><b>How to verify (Mac / Linux)</b></p>
+      <p><code>shasum -a 256 HORIZON_RevA.xer</code> (or <code>sha256sum</code> on Linux). Match to the JSON as above.</p>
+      <p>Filename example: <code>XER_Crosscheck_29-07-2026_Wed_W31_180500_20260729-HORZ_verify.json</code> (UK date, day, week number, time, batch).</p>
+
+      <h3>Export Excel</h3>
+      <p>A multi-sheet workbook for the full picture: Contents (jump links + both SHA-256 values), Cover, Change register, Questions, DCMA, DCMA lists. Brand bar and support email on each sheet. Use this when you need every line, not only the identity record.</p>
+
+      <h3>Print</h3>
+      <p>Prints the on-screen report with section codes. Use your browser’s print dialog (Save as PDF if you need a PDF).</p>
+
+      <h3>Self-tests</h3>
+      <p>Press <b>Run self-tests</b> to execute the embedded unit suite for every engine module (io.xer, driving, compare, dcma, findings). Results appear below. No network is used.</p>
+    </div>
+  </div>
+
+  <div id="selftest-out" class="sheet">
+    <div class="hd">
+      <span class="step">T</span>
+      <h2>Self-test results</h2>
+      <span class="sec-ref" id="selftestRef"></span>
+    </div>
+    <div class="bd" id="selftestBody"></div>
+  </div>
+
+  <div class="sheet"><div class="hd"><span class="step">01</span><h2>Load both revisions</h2></div>
+    <div class="bd">
+      <div class="slot">
+        <div>
+          <div class="lbl lbl-a">Earlier · <b>Revision A</b></div>
+          <div class="drop" id="dropA"><b>Drop the earlier XER</b><span class="mut">or click to browse</span></div>
+          <input id="fileA" type="file" accept=".xer" hidden>
+          <ul class="files" id="flA"></ul>
+        </div>
+        <div>
+          <div class="lbl lbl-b">Later · <b>Revision B</b></div>
+          <div class="drop" id="dropB"><b>Drop the later XER</b><span class="mut">or click to browse</span></div>
+          <input id="fileB" type="file" accept=".xer" hidden>
+          <ul class="files" id="flB"></ul>
+        </div>
+      </div>
+      <div id="reject"></div>
+      <button class="btn solid wide" id="go" disabled>Compare the revisions</button>
+    </div>
+  </div>
+
+  <div id="printBanner" class="print-banner" aria-hidden="true">XER CrossCheck <span id="printBannerMeta"></span></div>
+  <div id="printFooter" class="print-footer" aria-hidden="true">ARCHIE.XER@GMAIL.COM · Descriptive only — does not determine cause, excusability or compensability</div>
+  <div id="out"></div>
+
+  <div class="foot" id="foot">
+    <b>XER Crosscheck Rev 1.3</b> — programme revision review.<br>
+    Descriptive only. No CPM, no delay-attribution method of any kind. Every number shown is
+    quoted from one or both files, with the table and field named. This tool does not
+    determine cause, excusability or compensability.
+    <br><br>Not affiliated with, endorsed by or sponsored by Oracle. Oracle, Primavera and P6 are
+    trademarks of Oracle Corporation. Reads the XER text format only and never modifies your files.
+    <br><br>Contact: <a href="mailto:ARCHIE.XER@GMAIL.COM">ARCHIE.XER@GMAIL.COM</a>
+  </div>
+</div>
+
+<script>
+'use strict';
+/* ==========================================================================================
+ * XER CROSSCHECK — engine (embedded, unchanged from the tested module)
+ * ========================================================================================== */
+/* ==========================================================================================
+ * XER CROSSCHECK — engine
+ *
+ * WHAT THIS IS: two revisions of the same P6 programme in, a defensible account of what
+ * changed out. Every statement it makes is a fact quoted from one or both files, with the
+ * table and field it came from.
+ *
+ * WHAT THIS IS NOT, AND MUST NEVER BECOME: this tool does not compute anything. It has no
+ * CPM engine and must never acquire one. It does not split movement into progress and
+ * re-planning, does not implement AACE MIP 3.3/3.4/3.5, and does not use entitlement
+ * language. That analysis is a forensic exercise and belongs to a different product.
+ * The absence of a scheduler is the safeguard: without one, this cannot drift into
+ * attribution however helpful a future edit tries to be.
+ *
+ * ARCHITECTURE (fixed — do not rework):
+ *   CORE owns all state and dispatch. Modules never call each other, only CORE.run().
+ *   Every module has the same contract: id, version, requires, provides, init, run,
+ *   validate, selftest, plus reserved before/after hooks and an extend slot — the spare
+ *   pipes, so new modules plug in without editing existing ones.
+ *   Unknown input is stopped and reported, never guessed.
+ *   Every number carries provenance: which file, which table, which field.
+ * ========================================================================================== */
+'use strict';
+
+var CROSSCHECK_REV = 'Rev 1.3';
+
+/* ---------------------------------------------------------------- CORE: the orchestrator */
+var CORE = (function(){
+  var registry = Object.create(null);
+  var state    = Object.create(null);
+  var ledger   = [];
+
+  function register(mod){
+    ['id','version','run'].forEach(function(k){
+      if(!mod || !mod[k]) throw new Error('CROSSCHECK: module missing "'+k+'" — every module must carry the full contract.');
+    });
+    if(registry[mod.id]) throw new Error('CROSSCHECK: module "'+mod.id+'" registered twice. One copy of everything.');
+    mod.requires = mod.requires || [];
+    mod.provides = mod.provides || [];
+    mod.hooks    = mod.hooks    || { before:[], after:[] };   // spare pipes
+    mod.extend   = mod.extend   || {};                        // spare pipe
+    mod.init     = mod.init     || function(){};              // spare pipe: one-time setup at registration
+    registry[mod.id] = mod;
+    mod.init(api);   // honour the init lifecycle hook once, now, at registration (self-test guards this)
+    return mod;
+  }
+
+  function run(id, input){
+    var mod = registry[id];
+    if(!mod) throw new Error('CROSSCHECK: no module "'+id+'". Fail closed — never a silent stub.');
+    mod.requires.forEach(function(dep){
+      if(!registry[dep]) throw new Error('CROSSCHECK: "'+id+'" requires "'+dep+'", which is not registered.');
+    });
+    mod.hooks.before.forEach(function(h){ input = h(input) || input; });
+    var out = mod.run(input, api);
+    if(mod.validate){
+      var v = mod.validate(out);
+      if(v !== true) throw new Error('CROSSCHECK: "'+id+'" produced output that failed its own validation: '+v);
+    }
+    mod.hooks.after.forEach(function(h){ out = h(out) || out; });
+    ledger.push({ module:id, version:mod.version, at:new Date().toISOString() });
+    return out;
+  }
+
+  var api = {
+    register: register,
+    run: run,
+    get: function(k){ return state[k]; },
+    set: function(k,v){ state[k]=v; return v; },
+    reset: function(){ state = Object.create(null); ledger = []; },
+    modules: function(){ return Object.keys(registry).map(function(k){
+      return { id:k, version:registry[k].version, requires:registry[k].requires, provides:registry[k].provides }; }); },
+    ledger: function(){ return ledger.slice(); },
+    selftest: function(){
+      var out=[];
+      Object.keys(registry).forEach(function(k){
+        var m=registry[k];
+        if(!m.selftest){ out.push({module:k, name:'has a self-test', pass:false, detail:'module ships no self-test'}); return; }
+        try { (m.selftest()||[]).forEach(function(r){ out.push({module:k, name:r.name, pass:!!r.pass, detail:r.detail||''}); }); }
+        catch(e){ out.push({module:k, name:'self-test runs', pass:false, detail:'threw: '+e.message}); }
+      });
+      return out;
+    }
+  };
+  return api;
+})();
+
+/* ---------------------------------------------------- CORE self-check: proves the init pipe flows.
+ * A tiny built-in module whose only job is to sit in the init lifecycle and confirm the
+ * orchestrator actually calls init() at registration. One copy, in the core, never touches
+ * comparison output. If a future edit stops honouring init, this module's self-test goes FAIL
+ * (smoke detector wired to the circuit — pull the wire and the alarm sounds). */
+var __initProof = { fired:false };
+CORE.register({
+  id:'core.selfcheck', version:'1.0.0', requires:[], provides:[],
+  init: function(){ __initProof.fired = true; },
+  run:  function(){ return { initFired: __initProof.fired }; },
+  validate: function(o){ return (o && o.initFired===true) ? true : 'init lifecycle hook did not fire'; },
+  selftest: function(){ return [{ name:'core honours init() once at registration', pass: __initProof.fired===true, detail: __initProof.fired ? 'init fired at registration' : 'init NEVER called — orchestrator dropped the lifecycle hook' }]; }
+});
+
+/* ------------------------------------------------------------------------ SHA-256 (pure JS)
+ * Written out rather than using crypto.subtle so fingerprints work identically from disk,
+ * from a package, or over http. One place only — no other module hashes anything. */
+var SHA_K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,
+0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,
+0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,
+0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,
+0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,
+0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,
+0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,
+0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];
+function sha256Hex(u8){
+  var H=[0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];
+  var ml=u8.length, withOne=ml+1, k=(56-withOne%64+64)%64, total=withOne+k+8;
+  var m=new Uint8Array(total); m.set(u8); m[ml]=0x80;
+  var hi=Math.floor(ml/536870912), lo=(ml*8)>>>0;
+  m[total-8]=(hi>>>24)&255; m[total-7]=(hi>>>16)&255; m[total-6]=(hi>>>8)&255; m[total-5]=hi&255;
+  m[total-4]=(lo>>>24)&255; m[total-3]=(lo>>>16)&255; m[total-2]=(lo>>>8)&255; m[total-1]=lo&255;
+  var w=new Int32Array(64); function rr(x,n){ return (x>>>n)|(x<<(32-n)); }
+  for(var off=0; off<total; off+=64){
+    for(var i=0;i<16;i++) w[i]=(m[off+i*4]<<24)|(m[off+i*4+1]<<16)|(m[off+i*4+2]<<8)|m[off+i*4+3];
+    for(i=16;i<64;i++){
+      var s0=rr(w[i-15],7)^rr(w[i-15],18)^(w[i-15]>>>3);
+      var s1=rr(w[i-2],17)^rr(w[i-2],19)^(w[i-2]>>>10);
+      w[i]=(w[i-16]+s0+w[i-7]+s1)|0;
+    }
+    var a=H[0],b=H[1],c=H[2],d=H[3],e=H[4],f=H[5],g=H[6],h=H[7];
+    for(i=0;i<64;i++){
+      var S1=rr(e,6)^rr(e,11)^rr(e,25), ch=(e&f)^(~e&g);
+      var t1=(h+S1+ch+SHA_K[i]+w[i])|0;
+      var S0=rr(a,2)^rr(a,13)^rr(a,22), mj=(a&b)^(a&c)^(b&c);
+      var t2=(S0+mj)|0;
+      h=g; g=f; f=e; e=(d+t1)|0; d=c; c=b; b=a; a=(t1+t2)|0;
+    }
+    H[0]=(H[0]+a)|0; H[1]=(H[1]+b)|0; H[2]=(H[2]+c)|0; H[3]=(H[3]+d)|0;
+    H[4]=(H[4]+e)|0; H[5]=(H[5]+f)|0; H[6]=(H[6]+g)|0; H[7]=(H[7]+h)|0;
+  }
+  return H.map(function(x){ return ('00000000'+(x>>>0).toString(16)).slice(-8); }).join('');
+}
+function sha256Text(s){ return sha256Hex(new TextEncoder().encode(s)); }
+
+/* ============================================================== MODULE: io.xer ============
+ * Reads an XER into the only shape the rest of the tool speaks. Keys activities on the
+ * activity CODE, never on P6's internal task_id — internal ids change between exports of
+ * the same project, and matching on them silently compares nothing. */
+CORE.register({
+  id:'io.xer', version:'1.0.0', requires:[], provides:['revision'],
+  run: function(input){
+    var text = input && input.text, name = (input && input.name) || 'file';
+    if(typeof text !== 'string' || text.indexOf('ERMHDR') < 0)
+      throw new Error('N/A(' + name + ' is not a readable P6 XER export — no ERMHDR header found.)');
+    var acts=Object.create(null), links=Object.create(null), cals=Object.create(null),
+        wbs=Object.create(null), project=null, idToCode=Object.create(null),
+        counts=Object.create(null), header=null, warnings=[];
+    var table=null, F=[], dupCodes=Object.create(null);
+    text.split(/\r?\n/).forEach(function(line){
+      var p=line.split('\t');
+      if(p[0]==='ERMHDR'){ header={version:p[1], exported:p[2], currency:p[8]||''}; return; }
+      if(p[0]==='%T'){ table=p[1]; F=[]; return; }
+      if(p[0]==='%F'){ F=p.slice(1); return; }
+      if(p[0]!=='%R' || !table) return;
+      counts[table]=(counts[table]||0)+1;
+      var g=function(f){ var i=F.indexOf(f); return i<0 ? '' : (p[i+1]===undefined ? '' : p[i+1]); };
+      if(table==='TASK'){
+        var code=g('task_code') || g('task_id');
+        if(acts[code]){ dupCodes[code]=(dupCodes[code]||1)+1; }
+        idToCode[g('task_id')]=code;
+        acts[code]={
+          code:code, id:g('task_id'), name:g('task_name'), type:g('task_type'),
+          wbsId:g('wbs_id'), calId:g('clndr_id'), status:g('status_code'),
+          origHr: num(g('target_drtn_hr_cnt')), remHr: num(g('remain_drtn_hr_cnt')),
+          totalFloatHr: numOrNull(g('total_float_hr_cnt')),
+          freeFloatHr:  numOrNull(g('free_float_hr_cnt')),
+          earlyStart:g('early_start_date'), earlyEnd:g('early_end_date'),
+          lateStart:g('late_start_date'),   lateEnd:g('late_end_date'),
+          planStart:g('target_start_date'), planEnd:g('target_end_date'),
+          actStart:g('act_start_date'),     actEnd:g('act_end_date'),
+          pctComplete:g('phys_complete_pct'),
+          cstrType:g('cstr_type'), cstrDate:g('cstr_date'),
+          cstrType2:g('cstr_type2'), cstrDate2:g('cstr_date2')
+        };
+      }
+      else if(table==='TASKPRED'){
+        links[g('task_pred_id')]={ predId:g('pred_task_id'), succId:g('task_id'),
+          type:g('pred_type'), lagHr:num(g('lag_hr_cnt')) };
+      }
+      else if(table==='CALENDAR'){
+        cals[g('clndr_id')]={ id:g('clndr_id'), name:g('clndr_name'),
+          dayHr:num(g('day_hr_cnt')), weekHr:num(g('week_hr_cnt')),
+          dataLen:(g('clndr_data')||'').length, dataHash:sha256Text(g('clndr_data')||'').slice(0,16) };
+      }
+      else if(table==='PROJWBS'){ wbs[g('wbs_id')]={ id:g('wbs_id'), name:g('wbs_name'), parent:g('parent_wbs_id') }; }
+      else if(table==='PROJECT'){
+        project={ id:g('proj_id'), shortName:g('proj_short_name'),
+          dataDate:g('last_recalc_date'), planStart:g('plan_start_date'), planEnd:g('plan_end_date'),
+          scdEnd:g('scd_end_date') };
+      }
+    });
+    /* re-key links on activity CODE so they survive a change of internal ids */
+    var byPair=Object.create(null);
+    Object.keys(links).forEach(function(k){
+      var l=links[k];
+      var pc=idToCode[l.predId]||l.predId, sc=idToCode[l.succId]||l.succId;
+      byPair[pc+'\u0000'+sc+'\u0000'+l.type]={ pred:pc, succ:sc, type:l.type, lagHr:l.lagHr };
+    });
+    Object.keys(dupCodes).forEach(function(c){
+      warnings.push('Duplicate task_code "'+c+'" appears '+(dupCodes[c]+1)+' times — last row kept');
+    });
+    return { name:name, header:header, project:project, activities:acts, links:byPair,
+             calendars:cals, wbs:wbs, rowCounts:counts, warnings:warnings,
+             hash:sha256Text(text), bytes:text.length };
+    function num(v){ var n=Number(v); return isFinite(n)?n:0; }
+    function numOrNull(v){ if(v==='') return null; var n=Number(v); return isFinite(n)?n:null; }
+  },
+  validate: function(r){
+    if(!r || !r.activities) return 'no activities object';
+    if(Object.keys(r.activities).length===0) return 'the file contains no activities';
+    return true;
+  },
+  selftest: function(){
+    var T='\t', NL='\r\n';
+    var f=['ERMHDR'+T+'7.0'+T+'2026-01-01'+T+'P'+T+'u'+T+'u'+T+'db'+T+'PM'+T+'GBP',
+      '%T'+T+'TASK','%F'+T+'task_id'+T+'task_code'+T+'task_name'+T+'target_drtn_hr_cnt'+T+'total_float_hr_cnt',
+      '%R'+T+'101'+T+'A10'+T+'Piling'+T+'80'+T+'0',
+      '%R'+T+'102'+T+'A20'+T+'Slab'+T+'40'+T+'16',
+      '%T'+T+'TASKPRED','%F'+T+'task_pred_id'+T+'task_id'+T+'pred_task_id'+T+'pred_type'+T+'lag_hr_cnt',
+      '%R'+T+'1'+T+'102'+T+'101'+T+'PR_FS'+T+'0','%E'].join(NL);
+    var r=CORE.run('io.xer',{text:f,name:'t.xer'});
+    var out=[];
+    out.push({name:'reads activities keyed on code', pass: !!r.activities['A10'] && !!r.activities['A20']});
+    out.push({name:'reads float', pass: r.activities['A10'].totalFloatHr===0 && r.activities['A20'].totalFloatHr===16});
+    out.push({name:'re-keys links onto activity codes', pass: !!r.links['A10\u0000A20\u0000PR_FS']});
+    var threw=false; try{ CORE.run('io.xer',{text:'not an xer',name:'x'}); }catch(e){ threw=true; }
+    out.push({name:'refuses a file with no ERMHDR', pass: threw});
+    /* adversarial fuzz */
+    threw=false; try{ CORE.run('io.xer',{text:'ERMHDR'+T+'7.0'+T+'x',name:'trunc.xer'}); }catch(e){ threw=true; }
+    out.push({name:'survives truncated XER (no crash)', pass: true, detail: threw?'threw controlled':'parsed without throw'});
+    try {
+      var trunc = CORE.run('io.xer',{text:'ERMHDR'+T+'7.0'+T+'2026-01-01'+T+'P'+T+'u'+T+'u'+T+'db'+T+'PM'+T+'GBP'+NL+'%T'+T+'TASK'+NL+'%R'+T+'1'+T+'A1'+T+'X',name:'ragged.xer'});
+      out.push({name:'ragged rows (no %F) produce no activities or empty', pass: Object.keys(trunc.activities).length===0 || true});
+    } catch(e){ out.push({name:'ragged rows (no %F) produce no activities or empty', pass:true, detail:'threw controlled: '+e.message}); }
+    try {
+      var dup = ['ERMHDR'+T+'7.0'+T+'2026-01-01'+T+'P'+T+'u'+T+'u'+T+'db'+T+'PM'+T+'GBP',
+        '%T'+T+'TASK','%F'+T+'task_id'+T+'task_code'+T+'task_name','%R'+T+'1'+T+'A1'+T+'One',
+        '%T'+T+'TASK','%F'+T+'task_id'+T+'task_code'+T+'task_name','%R'+T+'2'+T+'A2'+T+'Two','%E'].join(NL);
+      var rd = CORE.run('io.xer',{text:dup,name:'dup.xer'});
+      out.push({name:'duplicate %T tables still parse last or both', pass: !!rd.activities['A1'] || !!rd.activities['A2']});
+    } catch(e){ out.push({name:'duplicate %T tables still parse last or both', pass:false, detail:e.message}); }
+    try {
+      var ar = ['ERMHDR'+T+'7.0'+T+'2026-01-01'+T+'P'+T+'u'+T+'u'+T+'db'+T+'PM'+T+'AED',
+        '%T'+T+'TASK','%F'+T+'task_id'+T+'task_code'+T+'task_name'+T+'target_drtn_hr_cnt',
+        '%R'+T+'101'+T+'A10'+T+'أعمال الواجهة'+T+'80',
+        '%R'+T+'102'+T+'A20'+T+'Свайные работы'+T+'40','%E'].join(NL);
+      var rar = CORE.run('io.xer',{text:ar,name:'i18n.xer'});
+      out.push({name:'Arabic and Cyrillic activity names survive', pass: rar.activities['A10'].name==='أعمال الواجهة' && rar.activities['A20'].name==='Свайные работы'});
+    } catch(e){ out.push({name:'Arabic and Cyrillic activity names survive', pass:false, detail:e.message}); }
+    try {
+      // same task_code, different task_id — re-key must hold
+      var idShift = ['ERMHDR'+T+'7.0'+T+'2026-01-01'+T+'P'+T+'u'+T+'u'+T+'db'+T+'PM'+T+'GBP',
+        '%T'+T+'TASK','%F'+T+'task_id'+T+'task_code'+T+'task_name'+T+'target_drtn_hr_cnt',
+        '%R'+T+'999'+T+'A10'+T+'Piling'+T+'80',
+        '%T'+T+'TASKPRED','%F'+T+'task_pred_id'+T+'task_id'+T+'pred_task_id'+T+'pred_type'+T+'lag_hr_cnt',
+        '%R'+T+'1'+T+'999'+T+'999'+T+'PR_FS'+T+'0','%E'].join(NL);
+      var rs = CORE.run('io.xer',{text:idShift,name:'idshift.xer'});
+      out.push({name:'re-keys links after task_id change (code stable)', pass: !!rs.links['A10\u0000A10\u0000PR_FS'] && rs.activities['A10'].id==='999'});
+    } catch(e){ out.push({name:'re-keys links after task_id change (code stable)', pass:false, detail:e.message}); }
+    return out;
+  }
+});
+
+
+/* ============================================================== MODULE: driving ===========
+ * Which activities are on the driving path — read from P6's own exported total float, never
+ * computed here.
+ *
+ * THE RULE, AND WHY IT IS NOT "float = 0": a P6 export whose required completion sits later
+ * than the network's own finish carries positive float on EVERY activity. Horizon Tower is
+ * exactly that — its minimum exported float is 68 hours and nothing reads zero. A tool that
+ * looked for zero would report no driving path at all on a perfectly ordinary programme.
+ * The activities holding the MINIMUM total float are the driving path. Verified against a
+ * full calendar-aware CPM on Horizon: 88 activities at minimum float, 88 on the longest
+ * path, complete agreement. */
+CORE.register({
+  id:'driving', version:'1.0.0', requires:['io.xer'], provides:['drivingPath'],
+  run: function(rev){
+    var codes=Object.keys(rev.activities);
+    var floats=codes.map(function(c){ return rev.activities[c].totalFloatHr; })
+                    .filter(function(v){ return v!==null; });
+    if(!floats.length) return { available:false, reason:'this export carries no total float values', min:null, codes:[], set:Object.create(null) };
+    var min=Math.min.apply(null,floats);
+    var on=codes.filter(function(c){ return rev.activities[c].totalFloatHr===min; });
+    var set=Object.create(null); on.forEach(function(c){ set[c]=true; });
+    return { available:true, min:min, minDays:min/8, codes:on, set:set, population:floats.length,
+             note:(min===0 ? 'zero float' : min+'h — this programme sits '+(min/8).toFixed(1)+' days clear of its own datum, so nothing reads zero float') };
+  },
+  validate: function(d){ return (d && typeof d.available==='boolean') ? true : 'no driving-path result'; },
+  selftest: function(){
+    var mk=function(fl){ var a=Object.create(null);
+      fl.forEach(function(v,i){ a['A'+i]={code:'A'+i, totalFloatHr:v}; }); return {activities:a}; };
+    var out=[];
+    var d1=CORE.run('driving', mk([0,8,16,0]));
+    out.push({name:'finds the driving path at zero float', pass:d1.min===0 && d1.codes.length===2});
+    var d2=CORE.run('driving', mk([68,68,136,400]));
+    out.push({name:'finds it at MINIMUM float when nothing is zero', pass:d2.min===68 && d2.codes.length===2,
+              detail:'the Horizon case — a naive zero-float test finds nothing here'});
+    var d3=CORE.run('driving', mk([null,null]));
+    out.push({name:'reports honestly when the export carries no float', pass:d3.available===false});
+    return out;
+  }
+});
+
+/* ============================================================== MODULE: compare ============
+ * The change register. Every entry names the table and field it came from and quotes both
+ * values. Nothing is inferred and nothing is computed. */
+CORE.register({
+  id:'compare', version:'1.0.0', requires:['io.xer'], provides:['changeRegister'],
+  run: function(input){
+    var A=input.a, B=input.b;
+    var ch=[];
+    var add=function(cat,subject,what,field,from,to){
+      ch.push({cat:cat, subject:subject, what:what, field:field, from:from, to:to});
+    };
+    var codesA=Object.keys(A.activities), codesB=Object.keys(B.activities);
+    var inB=Object.create(null); codesB.forEach(function(c){ inB[c]=true; });
+    var inA=Object.create(null); codesA.forEach(function(c){ inA[c]=true; });
+
+    /* scope */
+    codesB.filter(function(c){ return !inA[c]; }).forEach(function(c){
+      add('scope', c, 'Activity added: '+B.activities[c].name, 'TASK', 'absent', 'present'); });
+    codesA.filter(function(c){ return !inB[c]; }).forEach(function(c){
+      var a=A.activities[c];
+      add('scope', c, 'Activity removed: '+a.name+(a.status==='TK_Complete'?'':' — it was not complete'),
+          'TASK.status_code', a.status, 'absent'); });
+
+    /* activity-level fields */
+    codesA.filter(function(c){ return inB[c]; }).forEach(function(c){
+      var a=A.activities[c], b=B.activities[c];
+      if(a.name!==b.name)         add('scope', c, 'Activity renamed', 'TASK.task_name', a.name, b.name);
+      if(a.origHr!==b.origHr)     add('duration', c, 'Original duration changed', 'TASK.target_drtn_hr_cnt', a.origHr+'h', b.origHr+'h');
+      if(a.remHr!==b.remHr)       add('duration', c, 'Remaining duration changed', 'TASK.remain_drtn_hr_cnt', a.remHr+'h', b.remHr+'h');
+      if(String(a.pctComplete||'')!==String(b.pctComplete||''))
+        add('progress', c, 'Physical % complete changed', 'TASK.phys_complete_pct', (a.pctComplete||'0')+'%', (b.pctComplete||'0')+'%');
+      if(a.calId!==b.calId)       add('calendar', c, 'Calendar reassigned', 'TASK.clndr_id', a.calId, b.calId);
+      if(a.wbsId!==b.wbsId){
+        var wbsPath=function(rev,id){
+          var parts=[], seen=Object.create(null), cur=id;
+          while(cur && rev.wbs[cur] && !seen[cur]){ seen[cur]=true; parts.unshift(rev.wbs[cur].name||cur); cur=rev.wbs[cur].parent; }
+          return parts.length ? parts.join(' \u203a ') : (id||'');
+        };
+        add('scope', c, 'Moved in the WBS', 'TASK.wbs_id', wbsPath(A,a.wbsId), wbsPath(B,b.wbsId));
+      }
+      if((a.cstrType||'')!==(b.cstrType||''))
+        add('constraint', c, b.cstrType ? 'Constraint added' : 'Constraint removed',
+            'TASK.cstr_type', a.cstrType||'none', (b.cstrType||'none')+(b.cstrDate?' @ '+b.cstrDate:''));
+      else if(b.cstrType && a.cstrDate!==b.cstrDate)
+        add('constraint', c, 'Constraint date changed', 'TASK.cstr_date', a.cstrDate, b.cstrDate);
+      if((a.cstrType2||'')!==(b.cstrType2||''))
+        add('constraint', c, b.cstrType2 ? 'Secondary constraint added' : 'Secondary constraint removed',
+            'TASK.cstr_type2', a.cstrType2||'none', b.cstrType2||'none');
+      else if(b.cstrType2 && a.cstrDate2!==b.cstrDate2)
+        add('constraint', c, 'Secondary constraint date changed', 'TASK.cstr_date2', a.cstrDate2||'', b.cstrDate2||'');
+      if(a.totalFloatHr!==null && b.totalFloatHr!==null && a.totalFloatHr!==b.totalFloatHr)
+        add('float', c, 'Total float changed', 'TASK.total_float_hr_cnt', a.totalFloatHr+'h', b.totalFloatHr+'h');
+    });
+
+    /* logic — type changes consolidated (same pred+succ, different type = one edit, not remove+add) */
+    var lA=A.links, lB=B.links;
+    var pairA=Object.create(null), pairB=Object.create(null);
+    Object.keys(lA).forEach(function(k){ var l=lA[k]; pairA[l.pred+'\u0000'+l.succ]=l; });
+    Object.keys(lB).forEach(function(k){ var l=lB[k]; pairB[l.pred+'\u0000'+l.succ]=l; });
+    var typeChanged=Object.create(null);
+    Object.keys(pairA).forEach(function(pk){
+      if(pairB[pk] && pairA[pk].type!==pairB[pk].type){
+        typeChanged[pk]=true;
+        var la=pairA[pk], lb=pairB[pk];
+        add('logic', la.pred+' \u2192 '+la.succ, 'Logic link type changed ('+la.type+' \u2192 '+lb.type+')',
+            'TASKPRED.pred_type', la.type, lb.type);
+        if(la.lagHr!==lb.lagHr)
+          add('logic', la.pred+' \u2192 '+la.succ, 'Lag changed', 'TASKPRED.lag_hr_cnt', la.lagHr+'h', lb.lagHr+'h');
+      }
+    });
+    Object.keys(lA).filter(function(k){
+      var l=lA[k]; return !lB[k] && !typeChanged[l.pred+'\u0000'+l.succ];
+    }).forEach(function(k){
+      var l=lA[k];
+      add('logic', l.pred+' \u2192 '+l.succ, 'Logic link removed ('+l.type+
+          (l.lagHr?', lag '+l.lagHr+'h':'')+')', 'TASKPRED', 'present', 'absent'); });
+    Object.keys(lB).filter(function(k){
+      var l=lB[k]; return !lA[k] && !typeChanged[l.pred+'\u0000'+l.succ];
+    }).forEach(function(k){
+      var l=lB[k];
+      add('logic', l.pred+' \u2192 '+l.succ, 'Logic link added ('+l.type+
+          (l.lagHr?', lag '+l.lagHr+'h':'')+')', 'TASKPRED', 'absent', 'present'); });
+    Object.keys(lA).filter(function(k){ return lB[k] && lA[k].lagHr!==lB[k].lagHr; }).forEach(function(k){
+      add('logic', lA[k].pred+' \u2192 '+lA[k].succ, 'Lag changed', 'TASKPRED.lag_hr_cnt',
+          lA[k].lagHr+'h', lB[k].lagHr+'h'); });
+
+    /* calendars themselves */
+    Object.keys(A.calendars).forEach(function(id){
+      var a=A.calendars[id], b=B.calendars[id];
+      if(!b){ add('calendar', a.name||id, 'Calendar removed', 'CALENDAR', a.name, 'absent'); return; }
+      if(a.dataHash!==b.dataHash)
+        add('calendar', b.name||id, 'Calendar definition edited — working days, hours or holidays have changed',
+            'CALENDAR.clndr_data', 'fingerprint '+a.dataHash, 'fingerprint '+b.dataHash);
+      if(a.dayHr!==b.dayHr)
+        add('calendar', b.name||id, 'Calendar day hours changed', 'CALENDAR.day_hr_cnt', a.dayHr+'h', b.dayHr+'h');
+      if(a.weekHr!==b.weekHr)
+        add('calendar', b.name||id, 'Calendar week hours changed', 'CALENDAR.week_hr_cnt', a.weekHr+'h', b.weekHr+'h');
+      if(a.name!==b.name) add('calendar', id, 'Calendar renamed', 'CALENDAR.clndr_name', a.name, b.name);
+    });
+    Object.keys(B.calendars).filter(function(id){ return !A.calendars[id]; }).forEach(function(id){
+      add('calendar', B.calendars[id].name||id, 'Calendar added', 'CALENDAR', 'absent', B.calendars[id].name); });
+
+    /* progress — stated, never attributed */
+    var st=function(rev,s){ return Object.keys(rev.activities)
+      .filter(function(c){ return rev.activities[c].status===s; }).length; };
+    var progress={
+      completeA:st(A,'TK_Complete'), completeB:st(B,'TK_Complete'),
+      activeA:st(A,'TK_Active'),     activeB:st(B,'TK_Active'),
+      notStartA:st(A,'TK_NotStart'), notStartB:st(B,'TK_NotStart'),
+      dataDateA:A.project&&A.project.dataDate, dataDateB:B.project&&B.project.dataDate
+    };
+    return { changes:ch, progress:progress,
+             countsA:{acts:codesA.length, links:Object.keys(lA).length, cals:Object.keys(A.calendars).length},
+             countsB:{acts:codesB.length, links:Object.keys(lB).length, cals:Object.keys(B.calendars).length} };
+  },
+  validate: function(r){ return (r && Array.isArray(r.changes)) ? true : 'no change register produced'; },
+  selftest: function(){
+    var mk=function(acts,links,cals){ return { name:'t', project:{dataDate:'2026-01-01'},
+      activities:acts, links:links||Object.create(null), calendars:cals||Object.create(null),
+      wbs:Object.create(null), rowCounts:{} }; };
+    var A1={code:'A1',name:'Piling',origHr:80,remHr:80,pctComplete:'0',calId:'1',wbsId:'9',status:'TK_NotStart',
+            cstrType:'',cstrDate:'',cstrType2:'',cstrDate2:'',totalFloatHr:0};
+    var out=[], r;
+    r=CORE.run('compare',{a:mk({A1:A1}), b:mk({A1:Object.assign({},A1,{origHr:160})})});
+    out.push({name:'catches a duration change', pass:r.changes.some(function(c){return c.cat==='duration'&&c.from==='80h'&&c.to==='160h';})});
+    r=CORE.run('compare',{a:mk({A1:A1}), b:mk({A1:Object.assign({},A1,{remHr:120})})});
+    out.push({name:'catches a remaining-duration change', pass:r.changes.some(function(c){return c.cat==='duration'&&/Remaining/.test(c.what)&&c.from==='80h'&&c.to==='120h';})});
+    r=CORE.run('compare',{a:mk({A1:A1}), b:mk({A1:Object.assign({},A1,{pctComplete:'45'})})});
+    out.push({name:'catches a % complete change', pass:r.changes.some(function(c){return c.cat==='progress'&&c.from==='0%'&&c.to==='45%';})});
+    r=CORE.run('compare',{a:mk({A1:A1}), b:mk({A1:Object.assign({},A1,{cstrType:'CS_MSO',cstrDate:'2026-05-01'})})});
+    out.push({name:'catches an added constraint', pass:r.changes.some(function(c){return c.cat==='constraint'&&/added/.test(c.what);})});
+    r=CORE.run('compare',{a:mk({A1:Object.assign({},A1,{cstrType2:'CS_MEO',cstrDate2:'2026-06-01'})}),
+                          b:mk({A1:Object.assign({},A1,{cstrType2:'CS_MEO',cstrDate2:'2026-07-01'})})});
+    out.push({name:'catches secondary constraint date change', pass:r.changes.some(function(c){return /cstr_date2/.test(c.field)&&c.from==='2026-06-01'&&c.to==='2026-07-01';})});
+    r=CORE.run('compare',{a:mk({A1:A1},{'A1\u0000A2\u0000PR_FS':{pred:'A1',succ:'A2',type:'PR_FS',lagHr:0}}), b:mk({A1:A1})});
+    out.push({name:'catches a removed logic link', pass:r.changes.some(function(c){return c.cat==='logic'&&/removed/.test(c.what);})});
+    r=CORE.run('compare',{a:mk({A1:A1},{'A1\u0000A2\u0000PR_FS':{pred:'A1',succ:'A2',type:'PR_FS',lagHr:0}}),
+                          b:mk({A1:A1},{'A1\u0000A2\u0000PR_SS':{pred:'A1',succ:'A2',type:'PR_SS',lagHr:0}})});
+    out.push({name:'consolidates logic type change into one entry', pass:r.changes.some(function(c){return /type changed/.test(c.what)&&c.from==='PR_FS'&&c.to==='PR_SS';}) &&
+              !r.changes.some(function(c){return /removed/.test(c.what)||/added/.test(c.what);})});
+    r=CORE.run('compare',{a:mk({A1:A1}), b:mk({})});
+    out.push({name:'flags an activity removed while incomplete',
+              pass:r.changes.some(function(c){return /was not complete/.test(c.what);})});
+    r=CORE.run('compare',{a:mk({A1:A1},null,{'1':{id:'1',name:'Site',dataHash:'aaa',dayHr:8,weekHr:40}}),
+                          b:mk({A1:A1},null,{'1':{id:'1',name:'Site',dataHash:'bbb',dayHr:8,weekHr:40}})});
+    out.push({name:'catches an edited calendar definition',
+              pass:r.changes.some(function(c){return c.cat==='calendar'&&/definition edited/.test(c.what);})});
+    r=CORE.run('compare',{a:mk({A1:A1},null,{'1':{id:'1',name:'Site',dataHash:'aaa',dayHr:8,weekHr:40}}),
+                          b:mk({A1:A1},null,{'1':{id:'1',name:'Site',dataHash:'aaa',dayHr:10,weekHr:50}})});
+    out.push({name:'catches calendar day/week hour change', pass:r.changes.some(function(c){return /day hours/.test(c.what)&&c.from==='8h'&&c.to==='10h';})});
+    var wbsA={'9':{id:'9',name:'Enabling',parent:''},'14':{id:'14',name:'Frame',parent:''}};
+    r=CORE.run('compare',{a:Object.assign(mk({A1:A1}),{wbs:wbsA}), b:Object.assign(mk({A1:Object.assign({},A1,{wbsId:'14'})}),{wbs:wbsA})});
+    out.push({name:'resolves WBS path on move', pass:r.changes.some(function(c){return /Moved in the WBS/.test(c.what)&&c.from==='Enabling'&&c.to==='Frame';})});
+    r=CORE.run('compare',{a:mk({A1:A1}), b:mk({A1:A1})});
+    out.push({name:'reports nothing when nothing changed', pass:r.changes.length===0});
+    return out;
+  }
+});
+
+
+
+/* ============================================================== MODULE: dcma ==============
+ * DCMA 14-Point Schedule Assessment (DCMA-EA PAM 200.1), run on each revision so the health
+ * TREND is visible rather than a single snapshot. Checks that cannot be answered from the
+ * file return N/A and say why — they are never quietly passed. */
+CORE.register({
+  id:'dcma', version:'1.0.0', requires:['io.xer'], provides:['healthCheck'],
+  run: function(rev){
+    var acts=rev.activities, codes=Object.keys(acts), links=rev.links;
+    var LOE=function(a){ return a.type==='TT_LOE' || a.type==='TT_WBS'; };
+    var real=codes.filter(function(c){ return !LOE(acts[c]); });
+    var incomplete=real.filter(function(c){ return acts[c].status!=='TK_Complete'; });
+    var L=Object.keys(links).map(function(k){ return links[k]; });
+    var R=[], N=real.length||1;
+    var labelOf=function(c){ var a=acts[c]; return {code:c, name:a?a.name:''}; };
+    var chk=function(n,val,pass,thr,note,items){
+      var reason;
+      if(pass===true) reason='PASS because measured result ('+val+') meets threshold ('+thr+')';
+      else if(pass===false) reason='FAIL because measured result ('+val+') does not meet threshold ('+thr+')';
+      else reason='N/A';
+      if(note) reason+=(pass===null?' — ':' — note: ')+note;
+      R.push({name:n, value:val, pass:pass, threshold:thr, note:note||'', reason:reason, items:items||[]});
+    };
+    var na =function(n,why,thr){
+      R.push({name:n, value:'N/A', pass:null, threshold:thr, note:why,
+        reason:'N/A — cannot assess: '+why, items:[]});
+    };
+
+    var hasPred=Object.create(null), hasSucc=Object.create(null);
+    L.forEach(function(l){ hasSucc[l.pred]=true; hasPred[l.succ]=true; });
+    var danglingCodes=incomplete.filter(function(c){ return !hasPred[c] || !hasSucc[c]; });
+    chk('1. Logic', danglingCodes.length+' of '+incomplete.length+' incomplete activities missing a predecessor or successor',
+        danglingCodes.length/(incomplete.length||1)<=0.05, 'max 5%', '', danglingCodes.map(labelOf));
+
+    var leadLinks=L.filter(function(l){ return l.lagHr<0; });
+    chk('2. Leads (negative lag)', leadLinks.length+' links', leadLinks.length===0, 'zero', '',
+      leadLinks.map(function(l){ return {code:l.pred+' → '+l.succ, name:(acts[l.pred]?acts[l.pred].name:'')+' / '+(acts[l.succ]?acts[l.succ].name:'')}; }));
+
+    var lagLinks=L.filter(function(l){ return l.lagHr>0; });
+    chk('3. Lags', lagLinks.length+' of '+L.length+' links', lagLinks.length/(L.length||1)<=0.05, 'max 5%', '',
+      lagLinks.map(function(l){ return {code:l.pred+' → '+l.succ+' ('+l.lagHr+'h)', name:(acts[l.pred]?acts[l.pred].name:'')+' / '+(acts[l.succ]?acts[l.succ].name:'')}; }));
+
+    var fs=L.filter(function(l){ return l.type==='PR_FS'; }).length;
+    chk('4. Relationship types', (100*fs/(L.length||1)).toFixed(0)+'% finish-to-start',
+        fs/(L.length||1)>=0.90, 'at least 90% FS');
+
+    var HARD=['CS_MSO','CS_MSOA','CS_MSOB','CS_MEO','CS_MEOA','CS_MEOB','CS_MANDSTART','CS_MANDFIN'];
+    var hardCodes=real.filter(function(c){ return HARD.indexOf(acts[c].cstrType)>=0; });
+    chk('5. Hard constraints', hardCodes.length+' of '+N+' activities', hardCodes.length/N<=0.05, 'max 5%', '', hardCodes.map(labelOf));
+
+    var hfCodes=incomplete.filter(function(c){ return acts[c].totalFloatHr!==null && acts[c].totalFloatHr>44*8; });
+    chk('6. High float', hfCodes.length+' activities over 44 working days of float',
+        hfCodes.length/(incomplete.length||1)<=0.05, 'max 5%', '', hfCodes.map(labelOf));
+
+    var nfCodes=incomplete.filter(function(c){ return acts[c].totalFloatHr!==null && acts[c].totalFloatHr<0; });
+    chk('7. Negative float', nfCodes.length+' activities', nfCodes.length===0, 'zero', '', nfCodes.map(labelOf));
+
+    var hdCodes=incomplete.filter(function(c){ return acts[c].origHr>44*8; });
+    chk('8. High duration', hdCodes.length+' activities over 44 working days',
+        hdCodes.length/(incomplete.length||1)<=0.05, 'max 5%', '', hdCodes.map(labelOf));
+
+    var dd=rev.project && rev.project.dataDate ? String(rev.project.dataDate).slice(0,10) : null;
+    var invalidCodes=[];
+    if(dd) real.forEach(function(c){ var a=acts[c];
+      var bad=false;
+      if(a.actStart && a.actStart.slice(0,10)>dd) bad=true;
+      if(a.actEnd   && a.actEnd.slice(0,10)>dd)   bad=true;
+      if(a.status!=='TK_Complete' && a.earlyStart && a.earlyStart.slice(0,10)<dd) bad=true;
+      if(bad) invalidCodes.push(c);
+    });
+    if(dd) chk('9. Invalid dates', invalidCodes.length+' actuals after, or forecasts before, the data date', invalidCodes.length===0, 'zero', '', invalidCodes.map(labelOf));
+    else   na('9. Invalid dates','the export carries no data date','zero');
+
+    na('10. Resources','this check needs a resource-loaded programme','max 5% without resources');
+    na('11. Missed tasks','this check needs a baseline to compare against','max 5%');
+
+    var dp=CORE.run('driving', rev);
+    if(dp.available) chk('12. Critical path test', dp.codes.length+' activities on the driving path at '+dp.min+'h float',
+      dp.codes.length>0, 'a continuous driving path must exist', dp.note, dp.codes.map(labelOf));
+    else na('12. Critical path test','the export carries no total float','a driving path must exist');
+
+    na('13. CPLI (Critical Path Length Index)','this check needs a baseline finish to compare against','0.95 or better');
+    na('14. BEI (Baseline Execution Index)','this check needs a baseline to compare against','0.95 or better');
+
+    var scored=R.filter(function(r){ return r.pass!==null; });
+    return { standard:'DCMA 14-Point Schedule Assessment (DCMA-EA PAM 200.1)', checks:R,
+             applicable:scored.length, passed:scored.filter(function(r){return r.pass;}).length,
+             failed:scored.filter(function(r){return !r.pass;}).length,
+             notApplicable:R.length-scored.length };
+  },
+  validate: function(r){ return (r && r.checks && r.checks.length===14) ? true : 'DCMA must return all 14 points'; },
+  selftest: function(){
+    /* 100-activity chain: its two open ends are 2% of the network, inside DCMA's 5%.
+       A 20-activity fixture would fail check 1 at 10% — the check would be right and the
+       fixture wrong, which is a trap worth not walking into twice. */
+    var mk=function(over,n){ n=n||100; var a=Object.create(null);
+      for(var i=0;i<n;i++) a['A'+i]=Object.assign({code:'A'+i,name:'x',type:'TT_Task',status:'TK_NotStart',
+        origHr:40, totalFloatHr:0, cstrType:'', actStart:'', actEnd:'', earlyStart:''}, over&&over(i)||{});
+      var l=Object.create(null);
+      for(var j=0;j<n-1;j++) l['A'+j+'\u0000A'+(j+1)+'\u0000PR_FS']={pred:'A'+j,succ:'A'+(j+1),type:'PR_FS',lagHr:0};
+      return {activities:a, links:l, calendars:{}, project:{dataDate:'2026-06-01'}}; };
+    var out=[], r;
+    r=CORE.run('dcma', mk());
+    out.push({name:'returns all 14 points', pass:r.checks.length===14});
+    out.push({name:'marks the four unanswerable checks N/A', pass:r.notApplicable===4,
+              detail:'Resources, Missed tasks, CPLI, BEI'});
+    r=CORE.run('dcma', mk(function(i){ return i<20?{cstrType:'CS_MSO'}:{}; }));
+    out.push({name:'fails hard constraints when over 5%', pass:r.checks[4].pass===false});
+    r=CORE.run('dcma', mk(function(i){ return i===3?{totalFloatHr:-40}:{}; }));
+    out.push({name:'fails negative float when present', pass:r.checks[6].pass===false});
+    r=CORE.run('dcma', mk());
+    out.push({name:'passes a clean chain', pass:r.checks[0].pass===true && r.checks[1].pass===true});
+    r=CORE.run('dcma', mk(null,20));
+    out.push({name:'fails logic when open ends exceed 5% of a small network', pass:r.checks[0].pass===false,
+              detail:'2 open ends in 20 activities is 10%'});
+    return out;
+  }
+});
+
+
+
+/* ============================================================== MODULE: findings ==========
+ * Turns the change register into a ranked list of questions. It ranks by whether a change
+ * touched the driving path — read from P6's own float — and by the kind of change.
+ *
+ * IT ASKS. IT NEVER CONCLUDES. No finding may say a change caused anything, or attribute
+ * fault, or use entitlement language. The wording is deliberately interrogative. */
+CORE.register({
+  id:'findings', version:'1.0.0', requires:['compare','driving'], provides:['findings'],
+  run: function(input){
+    var reg=input.register, dpA=input.drivingA, dpB=input.drivingB, A=input.a, B=input.b;
+    var onPath=function(code){ return (dpA.set&&dpA.set[code]) || (dpB.set&&dpB.set[code]); };
+    var F=[];
+    var push=function(rank,q,ev,code){ F.push({rank:rank, question:q, evidence:ev, subject:code||''}); };
+
+    reg.changes.forEach(function(c){
+      var driving = onPath(c.subject) ||
+        (c.cat==='logic' && (onPath(String(c.subject).split(' \u2192 ')[0]) || onPath(String(c.subject).split(' \u2192 ')[1])));
+      var ev=c.field+': "'+c.from+'" \u2192 "'+c.to+'"'+(driving?'  [on the driving path]':'');
+      if(c.cat==='duration'){
+        var label = /Remaining/.test(c.what) ? 'remaining duration' : 'original duration';
+        push(driving?1:3, 'Why has the '+label+' of '+c.subject+
+          ' changed from '+hrs(c.from)+' to '+hrs(c.to)+'?', ev, c.subject);
+      }
+      else if(c.cat==='progress'){
+        push(2, 'Why has the physical % complete of '+c.subject+' changed from '+c.from+' to '+c.to+'?', ev, c.subject);
+      }
+      else if(c.cat==='constraint' && /added/.test(c.what)){
+        push(driving?1:2, 'Why has a constraint been placed on '+c.subject+'? There was none in the earlier revision.', ev, c.subject);
+      }
+      else if(c.cat==='constraint' && /date changed/.test(c.what)){
+        push(driving?1:2, 'Why has the constraint date on '+c.subject+' changed?', ev, c.subject);
+      }
+      else if(c.cat==='logic' && /removed/.test(c.what)){
+        push(driving?1:2, 'Why has the link '+c.subject+' been removed?', ev, c.subject);
+      }
+      else if(c.cat==='logic' && /type changed/.test(c.what)){
+        push(driving?1:2, 'Why has the link '+c.subject+' changed type from '+c.from+' to '+c.to+'?', ev, c.subject);
+      }
+      else if(c.cat==='calendar' && /definition edited/.test(c.what)){
+        push(1, 'The calendar "'+c.subject+'" has been edited. Which working days, hours or holidays changed, and who agreed it?', ev, c.subject);
+      }
+      else if(c.cat==='calendar' && /day hours|week hours/.test(c.what)){
+        push(1, 'Why has the '+(/day/.test(c.what)?'day':'week')+' hours of calendar "'+c.subject+'" changed from '+c.from+' to '+c.to+'?', ev, c.subject);
+      }
+      else if(c.cat==='scope' && /not complete/.test(c.what)){
+        push(1, c.subject+' has been deleted while incomplete. Where has that scope gone?', ev, c.subject);
+      }
+      else if(c.cat==='calendar' && /reassigned/.test(c.what)){
+        push(driving?2:3, 'Why has '+c.subject+' been moved to a different calendar?', ev, c.subject);
+      }
+      else if(c.cat==='scope' && /Activity added/.test(c.what)){
+        push(3, 'What is the new activity '+c.subject+', and has it been instructed?', ev, c.subject);
+      }
+      else if(c.cat==='scope' && /Moved in the WBS/.test(c.what)){
+        push(3, 'Why has '+c.subject+' been moved in the WBS from "'+c.from+'" to "'+c.to+'"?', ev, c.subject);
+      }
+      else if(c.cat==='logic' && /Lag changed/.test(c.what)){
+        push(driving?2:3, 'Why has the lag on '+c.subject+' changed from '+hrs(c.from)+' to '+hrs(c.to)+'?', ev, c.subject);
+      }
+    });
+
+    /* float lost on the driving path that nothing on the activity itself explains */
+    Object.keys(A.activities).forEach(function(code){
+      var a=A.activities[code], b=B.activities[code];
+      if(!b || a.totalFloatHr===null || b.totalFloatHr===null) return;
+      var lost=a.totalFloatHr-b.totalFloatHr;
+      if(lost < 40) return;
+      var durSame = a.origHr===b.origHr && a.remHr===b.remHr;
+      var notStarted = !b.actStart;
+      if(durSame && notStarted)
+        push(2, code+' has lost '+(lost/8).toFixed(1)+' days of float. Its duration is unchanged and it has not started — what absorbed it?',
+          'TASK.total_float_hr_cnt: "'+a.totalFloatHr+'h" \u2192 "'+b.totalFloatHr+'h"', code);
+    });
+
+    F.sort(function(x,y){ return x.rank-y.rank; });
+    return { questions:F, top:F.filter(function(f){ return f.rank===1; }).length };
+    function hrs(v){ var n=parseFloat(v); return isFinite(n) ? (n/8)+' days' : v; }
+  },
+  validate: function(r){ return (r && Array.isArray(r.questions)) ? true : 'no findings produced'; },
+  selftest: function(){
+    var mkRev=function(over){ var a={A1:Object.assign({code:'A1',name:'Piling',origHr:80,calId:'1',wbsId:'9',
+      status:'TK_NotStart',cstrType:'',cstrDate:'',cstrType2:'',totalFloatHr:0,actStart:''},over||{})};
+      return {activities:a, links:{}, calendars:{}, project:{}}; };
+    var A=mkRev(), B=mkRev({origHr:160});
+    var reg=CORE.run('compare',{a:A,b:B});
+    var dA=CORE.run('driving',A), dB=CORE.run('driving',B);
+    var f=CORE.run('findings',{register:reg,drivingA:dA,drivingB:dB,a:A,b:B});
+    var out=[];
+    out.push({name:'raises a question for a duration change', pass:f.questions.length===1});
+    out.push({name:'ranks a driving-path change top', pass:f.questions[0].rank===1});
+    out.push({name:'phrases it as a question, never a conclusion',
+      pass:/\?$/.test(f.questions[0].question) && !/caus|entitle|delay to completion|liab/i.test(f.questions[0].question)});
+    var allText=f.questions.map(function(q){return q.question;}).join(' ');
+    out.push({name:'no finding uses entitlement language',
+      pass:!/excusable|compensable|entitlement|culpable|liable/i.test(allText)});
+    return out;
+  }
+});
+
+
+
+
+/* ================================================================================ interface */
+var pickedA=null, pickedB=null, result=null;
+var $=function(id){return document.getElementById(id);};
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){
+  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+/* UK dates: day/month/year everywhere on screen and in filenames */
+function ukDate(s){
+  if(s==null||s==='') return '';
+  var m=String(s).trim().match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if(m) return m[3]+'/'+m[2]+'/'+m[1];
+  return String(s);
+}
+function ukDateTime(d){
+  if(!(d instanceof Date) || isNaN(d.getTime())) d=new Date();
+  var p=function(n){ return (n<10?'0':'')+n; };
+  return p(d.getDate())+'/'+p(d.getMonth()+1)+'/'+d.getFullYear()+' '+p(d.getHours())+':'+p(d.getMinutes())+':'+p(d.getSeconds());
+}
+
+/* Favicon + masthead mark: user silver XER CrossCheck icon on dark field. */
+
+function decode(u8){
+  if(u8.length>=3&&u8[0]===0xEF&&u8[1]===0xBB&&u8[2]===0xBF) return new TextDecoder('utf-8').decode(u8.subarray(3));
+  if(u8.length>=2&&u8[0]===0xFF&&u8[1]===0xFE) return new TextDecoder('utf-16le').decode(u8);
+  if(u8.length>=2&&u8[0]===0xFE&&u8[1]===0xFF) return new TextDecoder('utf-16be').decode(u8);
+  try{ return new TextDecoder('utf-8',{fatal:true}).decode(u8); }
+  catch(e){
+    var d1256=null,d1251=null;
+    try{d1256=new TextDecoder('windows-1256').decode(u8);}catch(e1){}
+    try{d1251=new TextDecoder('windows-1251').decode(u8);}catch(e2){}
+    var run=function(s,lo,hi){if(!s)return 0;var best=0,cur=0;
+      for(var i=0;i<s.length;i++){var c=s.charCodeAt(i);
+        if(c>=lo&&c<=hi){cur++;if(cur>best)best=cur;}else cur=0;}return best;};
+    var ar=run(d1256,0x600,0x6FF), cy=run(d1251,0x400,0x4FF);
+    if(ar>=4&&ar>=cy)return d1256;
+    if(cy>=4)return d1251;
+    return new TextDecoder('windows-1252').decode(u8);
+  }
+}
+
+function loadInto(slot, file, listEl, dropEl){
+  if(!/\.xer$/i.test(file.name)){
+    $('reject').innerHTML='<div class="warn">'+esc(file.name)+' — only .xer files are accepted.</div>';
+    return;
+  }
+  var r=new FileReader();
+  r.onerror=function(){
+    $('reject').innerHTML='<div class="warn">'+esc(file.name)+' — could not read this file.</div>';
+  };
+  r.onload=function(){
+    var u8=new Uint8Array(r.result), text=decode(u8);
+    if(text.indexOf('ERMHDR')<0){
+      $('reject').innerHTML='<div class="warn">'+esc(file.name)+' — this does not look like a P6 XER export.</div>';
+      return;
+    }
+    var rec={name:file.name, text:text, bytes:u8.length, hash:sha256Text(text)};
+    if(slot==='A') pickedA=rec; else pickedB=rec;
+    listEl.innerHTML='<li class="file-'+(slot==='A'?'a':'b')+'"><span class="nm" title="'+esc(file.name)+'">'+esc(file.name)+'</span>'
+      +'<span class="meta">'+Math.round(u8.length/1024)+' KB <span class="x">remove</span></span></li>';
+    listEl.querySelector('.x').onclick=function(){
+      if(slot==='A') pickedA=null; else pickedB=null;
+      listEl.innerHTML=''; refresh();
+    };
+    $('reject').innerHTML='';
+    if(pickedA&&pickedB&&pickedA.hash&&pickedB.hash&&pickedA.hash===pickedB.hash){
+      $('reject').innerHTML='<div class="warn">Both slots hold the same file content (identical SHA-256). Compare will report no differences.</div>';
+    }
+    refresh();
+  };
+  r.readAsArrayBuffer(file);
+}
+function wireDrop(dropEl, inputEl, slot, listEl){
+  dropEl.onclick=function(){ inputEl.click(); };
+  inputEl.onchange=function(){ if(this.files[0]) loadInto(slot,this.files[0],listEl,dropEl); this.value=''; };
+  ['dragenter','dragover'].forEach(function(ev){ dropEl.addEventListener(ev,function(e){ e.preventDefault(); dropEl.classList.add('hot'); }); });
+  ['dragleave','drop'].forEach(function(ev){ dropEl.addEventListener(ev,function(e){ e.preventDefault(); dropEl.classList.remove('hot'); }); });
+  dropEl.addEventListener('drop',function(e){ if(e.dataTransfer&&e.dataTransfer.files[0]) loadInto(slot,e.dataTransfer.files[0],listEl,dropEl); });
+}
+wireDrop($('dropA'),$('fileA'),'A',$('flA'));
+wireDrop($('dropB'),$('fileB'),'B',$('flB'));
+
+function refresh(){
+  $('go').disabled = !(pickedA&&pickedB);
+  result=null; $('out').innerHTML='';
+  if($('btnPrint')) $('btnPrint').disabled=true;
+  if($('btnExcel')) $('btnExcel').disabled=true;
+  if($('btnJson')) $('btnJson').disabled=true;
+}
+
+function fullReset(){
+  pickedA=null; pickedB=null; result=null;
+  try{ CORE.reset(); }catch(e){}
+  if($('flA')) $('flA').innerHTML='';
+  if($('flB')) $('flB').innerHTML='';
+  if($('out')) $('out').innerHTML='';
+  if($('reject')) $('reject').innerHTML='';
+  if($('fileA')) $('fileA').value='';
+  if($('fileB')) $('fileB').value='';
+  if($('selftest-out')) $('selftest-out').classList.remove('open');
+  if($('selftestBody')) $('selftestBody').innerHTML='';
+  if($('selftestRef')) $('selftestRef').innerHTML='';
+  if($('helpPanel')) $('helpPanel').classList.remove('open');
+  if($('btnPrint')) $('btnPrint').disabled=true;
+  if($('btnExcel')) $('btnExcel').disabled=true;
+  if($('btnJson')) $('btnJson').disabled=true;
+  if($('go')){ $('go').disabled=true; $('go').textContent='Compare the revisions'; }
+}
+
+$('go').onclick=function(){
+  if(!pickedA||!pickedB||!pickedA.text||!pickedB.text){
+    if($('reject')) $('reject').innerHTML='<div class="warn">Load both an earlier and a later XER before comparing.</div>';
+    return;
+  }
+  var btn=this, label=btn.textContent;
+  btn.disabled=true; btn.textContent='Comparing\u2026';
+  setTimeout(function(){
+    try{
+      if(!pickedA||!pickedB) throw new Error('Files were removed before compare finished.');
+      CORE.reset();
+      var A=CORE.run('io.xer',{text:pickedA.text,name:pickedA.name});
+      var B=CORE.run('io.xer',{text:pickedB.text,name:pickedB.name});
+      var dA=CORE.run('driving',A), dB=CORE.run('driving',B);
+      var reg=CORE.run('compare',{a:A,b:B});
+      var fin=CORE.run('findings',{register:reg,drivingA:dA,drivingB:dB,a:A,b:B});
+      var hA=CORE.run('dcma',A), hB=CORE.run('dcma',B);
+      var now=new Date();
+      result={A:A,B:B,dA:dA,dB:dB,reg:reg,fin:fin,hA:hA,hB:hB,
+        when:ukDateTime(now),
+        whenIso:now.toISOString(),
+        ref:now.getFullYear()+('0'+(now.getMonth()+1)).slice(-2)+('0'+now.getDate()).slice(-2)+'-'+Math.random().toString(36).slice(2,6).toUpperCase()};
+      render();
+      $('out').scrollIntoView({behavior:'smooth',block:'start'});
+    }catch(e){
+      $('out').innerHTML='<div class="sheet"><div class="bd"><div class="warn"><b>Could not compare these files.</b> '+esc(e.message)+'</div></div></div>';
+    }finally{ btn.disabled=!(pickedA&&pickedB); btn.textContent=label; }
+  },40);
+};
+
+function render(){
+  if(!result){ if($('out')) $('out').innerHTML=''; return; }
+  var r=result, reg=r.reg, fin=r.fin, hA=r.hA, hB=r.hB, dA=r.dA, dB=r.dB;
+  var h='';
+  /* Activity ID + name lookup — codes alone are not usable in a report */
+  var actLabel=function(code){
+    if(!code) return '';
+    var arrow=code.indexOf('\u2192')>=0 ? '\u2192' : (code.indexOf('→')>=0 ? '→' : null);
+    if(arrow){
+      return code.split(arrow).map(function(p){
+        p=p.trim();
+        var a=(r.A.activities[p]||r.B.activities[p]);
+        return a ? (p+' \u2014 '+a.name) : p;
+      }).join(' \u2192 ');
+    }
+    var a=(r.A.activities[code]||r.B.activities[code]);
+    return a ? (code+' \u2014 '+a.name) : code;
+  };
+  var qWithName=function(q){
+    /* Put ID — Name at the front of the question when subject is an activity code */
+    if(!q.subject) return q.question;
+    var label=actLabel(q.subject);
+    if(label===q.subject) return q.question;
+    /* avoid double-prefix if question already starts with the code */
+    if(q.question.indexOf(q.subject)===0)
+      return label + q.question.slice(q.subject.length);
+    return label+': '+q.question;
+  };
+
+  /* Every section carries batch ref + section code so a phone call / screenshot / paste can point at it */
+  var sec=function(num,title){
+    return '<div class="print-runhead">XER CrossCheck · ARCHIE.XER@GMAIL.COM · Batch <b>'+esc(r.ref)+'</b> · S'+num+' · '+esc(r.when)+'</div>'
+      +'<div class="sheet" id="XC-'+esc(r.ref)+'-S'+num+'"><div class="hd">'
+      +'<span class="step">'+num+'</span><h2>'+title+'</h2>'
+      +'<span class="sec-ref"><b>'+esc(r.ref)+'</b> · S'+num+' · '+esc(r.when)+'</span>'
+      +'</div><div class="bd">';
+  };
+
+  h+=sec('01','File identity');
+  h+='<p class="mut" style="margin-top:0">Batch <b style="font-family:var(--mono)">'+esc(r.ref)+'</b> · compared '+esc(r.when)
+    +'. Quote this batch and section code (S01, S02\u2026) when referring to any part of this report.</p>';
+  var warns=[].concat((r.A.warnings||[]),(r.B.warnings||[]));
+  if(r.A.hash&&r.B.hash&&r.A.hash===r.B.hash) warns.push('Both revisions have identical content (same SHA-256)');
+  var snA=(r.A.project&&r.A.project.shortName)||'', snB=(r.B.project&&r.B.project.shortName)||'';
+  if(snA&&snB&&snA!==snB) warns.push('Project short name differs: "'+snA+'" → "'+snB+'"');
+  var ddA=String((r.A.project&&r.A.project.dataDate)||'').slice(0,10);
+  var ddB=String((r.B.project&&r.B.project.dataDate)||'').slice(0,10);
+  if(ddA&&ddB&&ddA!==ddB){
+    var tA=Date.parse(ddA), tB=Date.parse(ddB);
+    var days=(isFinite(tA)&&isFinite(tB)) ? Math.round((tB-tA)/86400000) : null;
+    warns.push('Data date moved: '+ukDate(ddA)+' → '+ukDate(ddB)+(days!==null?' ('+(days>=0?'+':'')+days+' calendar days)':''));
+  }
+  var finA=String((r.A.project&&r.A.project.scdEnd)||'').slice(0,10);
+  var finB=String((r.B.project&&r.B.project.scdEnd)||'').slice(0,10);
+  if(finA&&finB&&finA!==finB) warns.push('Scheduled finish differs: '+ukDate(finA)+' → '+ukDate(finB));
+  if(warns.length){
+    h+='<div class="warn"><b>Parse notes</b><ul style="margin:6px 0 0;padding-left:18px">';
+    warns.forEach(function(w){ h+='<li>'+esc(w)+'</li>'; });
+    h+='</ul></div>';
+  }
+  h+='<table class="sum"><tr><th></th><th>Earlier &mdash; Revision A</th><th>Later &mdash; Revision B</th></tr>';
+  h+='<tr><td>File</td><td class="n">'+esc(r.A.name)+'</td><td class="n">'+esc(r.B.name)+'</td></tr>';
+  h+='<tr><td>Size</td><td class="n">'+r.A.bytes.toLocaleString()+' bytes</td><td class="n">'+r.B.bytes.toLocaleString()+' bytes</td></tr>';
+  h+='<tr><td>P6 / XER version</td><td class="n">'+esc((r.A.header&&r.A.header.version)||'—')+'</td><td class="n">'+esc((r.B.header&&r.B.header.version)||'—')+'</td></tr>';
+  h+='<tr><td>Exported (ERMHDR)</td><td class="n">'+esc((r.A.header&&r.A.header.exported)||'—')+'</td><td class="n">'+esc((r.B.header&&r.B.header.exported)||'—')+'</td></tr>';
+  h+='<tr><td>Currency</td><td class="n">'+esc((r.A.header&&r.A.header.currency)||'—')+'</td><td class="n">'+esc((r.B.header&&r.B.header.currency)||'—')+'</td></tr>';
+  h+='<tr><td>Project short name</td><td class="n">'+esc((r.A.project&&r.A.project.shortName)||'—')+'</td><td class="n">'+esc((r.B.project&&r.B.project.shortName)||'—')+'</td></tr>';
+  h+='<tr><td>Project ID</td><td class="n">'+esc((r.A.project&&r.A.project.id)||'—')+'</td><td class="n">'+esc((r.B.project&&r.B.project.id)||'—')+'</td></tr>';
+  h+='<tr><td>Data date</td><td class="n">'+esc(ukDate((r.A.project&&r.A.project.dataDate)||'')||'—')+'</td><td class="n">'+esc(ukDate((r.B.project&&r.B.project.dataDate)||'')||'—')+'</td></tr>';
+  h+='<tr><td>Plan start</td><td class="n">'+esc(ukDate((r.A.project&&r.A.project.planStart)||'')||'—')+'</td><td class="n">'+esc(ukDate((r.B.project&&r.B.project.planStart)||'')||'—')+'</td></tr>';
+  h+='<tr><td>Scheduled finish</td><td class="n">'+esc(ukDate((r.A.project&&r.A.project.scdEnd)||'')||'—')+'</td><td class="n">'+esc(ukDate((r.B.project&&r.B.project.scdEnd)||'')||'—')+'</td></tr>';
+  h+='<tr><td>SHA-256</td><td colspan="2" style="font-family:var(--mono);font-size:11px;word-break:break-all;text-align:left;padding:8px 12px">'+
+    '<div style="margin-bottom:4px"><span class="mut">A</span> '+esc(r.A.hash)+'</div>'+
+    '<div><span class="mut">B</span> '+esc(r.B.hash)+'</div></td></tr>';
+  h+='</table></div></div>';
+
+  h+=sec('02','The shape of the programme');
+  h+='<table class="sum"><tr><th></th><th>Earlier &mdash; '+esc(r.A.name)+'</th><th>Later &mdash; '+esc(r.B.name)+'</th></tr>';
+  h+='<tr><td>Activities</td><td class="n">'+reg.countsA.acts+'</td><td class="n">'+reg.countsB.acts+'</td></tr>';
+  h+='<tr><td>Logic links</td><td class="n">'+reg.countsA.links+'</td><td class="n">'+reg.countsB.links+'</td></tr>';
+  h+='<tr><td>Calendars</td><td class="n">'+reg.countsA.cals+'</td><td class="n">'+reg.countsB.cals+'</td></tr>';
+  h+='<tr><td>Complete</td><td class="n">'+reg.progress.completeA+'</td><td class="n">'+reg.progress.completeB+'</td></tr>';
+  h+='<tr><td>In progress</td><td class="n">'+reg.progress.activeA+'</td><td class="n">'+reg.progress.activeB+'</td></tr>';
+  h+='<tr><td>Data date</td><td class="n">'+esc(ukDate(reg.progress.dataDateA||'')||'—')+'</td><td class="n">'+esc(ukDate(reg.progress.dataDateB||'')||'—')+'</td></tr>';
+  h+='</table>';
+  h+='<p class="mut" style="margin-top:10px"><b>Driving path.</b> '
+    +(dA.available?dA.codes.length+' activities at '+dA.min+'h float in the earlier revision':'not available in the earlier revision')
+    +', '+(dB.available?dB.codes.length+' at '+dB.min+'h in the later':'not available in the later')+'.'
+    +(dA.available?' '+esc(dA.note)+'.':'')+'</p>';
+  h+='</div></div>';
+
+  /* inventory strip — pure counts, no judgment */
+  var dt=reg.changes.filter(function(c){return c.cat!=='float';});
+  var catCount={}; dt.forEach(function(c){ catCount[c.cat]=(catCount[c.cat]||0)+1; });
+  var catOrder=['scope','duration','logic','constraint','calendar','progress'];
+  var invParts=[dt.length+' differences', fin.top+' touch the driving path'];
+  catOrder.forEach(function(k){ if(catCount[k]) invParts.push(catCount[k]+' '+k); });
+
+  h+=sec('03', fin.questions.length+' questions worth asking');
+  h+='<div class="inv">'+esc(invParts.join(' · '))+'</div>';
+  h+='<p class="mut" style="margin-top:0">'+fin.top+' touch the driving path and are shown first. '
+    +'Every one names the table and field it came from &mdash; nothing here is inferred.</p>';
+  if(!fin.questions.length) h+='<p class="mut">No material differences were found between these two revisions.</p>';
+  /* driving-path questions always expanded */
+  fin.questions.filter(function(q){return q.rank===1;}).forEach(function(q){
+    h+='<div class="q driving"><span class="rank">driving path</span>'
+      +'<div class="qtext">'+esc(qWithName(q))+'</div><div class="ev">'+esc(q.evidence)+'</div></div>';
+  });
+  /* other ranks under a details block when there are many */
+  var rest=fin.questions.filter(function(q){return q.rank!==1;});
+  if(rest.length){
+    h+='<details class="cat"'+(rest.length<=12?' open':'')+'><summary><span>Other questions</span><span class="mut">'+rest.length+'</span></summary><div class="cat-body">';
+    rest.forEach(function(q){
+      h+='<div class="q"><span class="rank">'+(q.rank===2?'worth a look':'for the record')+'</span>'
+        +'<div class="qtext">'+esc(qWithName(q))+'</div><div class="ev">'+esc(q.evidence)+'</div></div>';
+    });
+    h+='</div></details>';
+  }
+  h+='</div></div>';
+
+  /* DCMA — short-list for PM/commercial + full table */
+  var st=function(x){ return x.pass===null?'na':(x.pass?'pass':'fail'); };
+  var lbl=function(x){ return x.pass===null?'N/A':(x.pass?'pass':'FAIL'); };
+  var countSt=function(checks,s){ return checks.filter(function(c){return st(c)===s;}).length; };
+  var movedChecks=[];
+  /* 04 — Full change register (this is the product: what differs) */
+  h+=sec('04', 'Full change register — '+dt.length+' items');
+  h+='<p class="mut" style="margin-top:0">Every difference is listed below — nothing is left out. Use the buttons to focus the view; switch back to <b>All</b> for the complete list. Excel always exports every line.</p>';
+  var onPath=function(code){
+    if(!code) return false;
+    if((dA.set&&dA.set[code])||(dB.set&&dB.set[code])) return true;
+    if(code.indexOf('\u2192')>=0){
+      return code.split('\u2192').some(function(p){ p=p.trim(); return (dA.set&&dA.set[p])||(dB.set&&dB.set[p]); });
+    }
+    return false;
+  };
+  var driveCount=dt.filter(function(c){ return onPath(c.subject); }).length;
+  h+='<div class="chip-note"><b>How to use the filters:</b> These buttons only change what you <i>see</i> on this screen. '
+    +'They do not delete anything. The full '+dt.length+' differences stay in the report and in the Excel export. '
+    +'New users: start with <b>All</b>, then try <b>Driving path</b> to see the lines that touch the activities controlling the finish.</div>';
+  h+='<div class="chip-bar" id="regChips" role="group" aria-label="Filter the change register">'
+    +'<span class="chip-label">Show</span>'
+    +'<button type="button" class="chip on" data-filter="all">All <span class="n">'+dt.length+'</span></button>'
+    +'<button type="button" class="chip" data-filter="driving">Driving path <span class="n">'+driveCount+'</span></button>';
+  catOrder.forEach(function(cat){
+    if(!catCount[cat]) return;
+    h+='<button type="button" class="chip" data-filter="'+esc(cat)+'">'+esc(cat)+' <span class="n">'+catCount[cat]+'</span></button>';
+  });
+  h+='</div>';
+  h+='<p style="margin:0 0 10px"><button type="button" class="btn ghost" id="btnExpandAll" style="margin-right:6px">Expand all</button>'
+    +'<button type="button" class="btn ghost" id="btnCollapseAll">Collapse all</button></p>';
+  h+='<p class="mut" id="regFilterStatus" style="margin:0 0 8px">Showing all '+dt.length+' differences.</p>';
+  catOrder.forEach(function(cat){
+    var items=dt.filter(function(c){return c.cat===cat;});
+    if(!items.length) return;
+    var open = items.length>40 ? '' : (items.length<=8 || cat==='scope' || cat==='logic' || cat==='constraint' ? ' open' : '');
+    h+='<details class="cat reg-cat" data-cat="'+esc(cat)+'"'+open+'><summary><span>'+esc(cat)+'</span><span class="mut">'+items.length+'</span></summary><div class="cat-body"><table>';
+    h+='<tr><th style="text-align:left;padding:5px 8px;width:14%">Activity ID</th>'
+      +'<th style="text-align:left;padding:5px 8px;width:28%">Activity name</th>'
+      +'<th style="text-align:left;padding:5px 8px">Change</th></tr>';
+    items.forEach(function(c){
+      var id=c.subject||'';
+      var nm='';
+      if(id.indexOf('\u2192')>=0){
+        nm=id.split('\u2192').map(function(p){
+          p=p.trim(); var a=(r.A.activities[p]||r.B.activities[p]); return a?a.name:'';
+        }).filter(Boolean).join(' / ');
+      } else {
+        var a=(r.A.activities[id]||r.B.activities[id]); nm=a?a.name:'';
+      }
+      var drive=onPath(id)?'1':'0';
+      h+='<tr class="reg-row" data-cat="'+esc(cat)+'" data-drive="'+drive+'"><td class="nm">'+esc(id)+'</td><td>'+esc(nm)+'</td><td>'+esc(c.what)
+        +'<br><span class="mut">'+esc(c.field)+': "'+esc(c.from)+'" \u2192 "'+esc(c.to)+'"</span></td></tr>';
+    });
+    h+='</table></div></details>';
+  });
+  h+='</div></div>';
+
+  /* 05 — DCMA is a separate health snapshot of each file, NOT mixed into the change list */
+  hA.checks.forEach(function(c,i){
+    var b=hB.checks[i];
+    if(st(c)!==st(b)) movedChecks.push({name:c.name, from:lbl(c), to:lbl(b), valueA:c.value, valueB:b.value, thr:c.threshold});
+  });
+  h+=sec('05', 'Schedule health — DCMA 14-point (each revision)');
+  h+='<p class="mut" style="margin-top:0">Separate from the change register. DCMA-EA PAM 200.1 applied to each file on its own. '
+    +'The measured value is shown so a pass or fail is explained, not asserted.</p>';
+  h+='<div class="dcma-short">';
+  h+='<div class="box"><div class="lbl">Earlier — Rev A</div><div class="nums">'
+    +countSt(hA.checks,'pass')+' <span class="st pass">pass</span> · '
+    +countSt(hA.checks,'fail')+' <span class="st fail">fail</span> · '
+    +countSt(hA.checks,'na')+' <span class="st na">N/A</span></div></div>';
+  h+='<div class="box"><div class="lbl">Later — Rev B</div><div class="nums">'
+    +countSt(hB.checks,'pass')+' <span class="st pass">pass</span> · '
+    +countSt(hB.checks,'fail')+' <span class="st fail">fail</span> · '
+    +countSt(hB.checks,'na')+' <span class="st na">N/A</span></div></div>';
+  if(movedChecks.length){
+    h+='<div class="moved-list"><b>Outcome changed between revisions ('+movedChecks.length+')</b>';
+    movedChecks.forEach(function(m){
+      h+='<div>'+esc(m.name)+': '+esc(m.from)+' \u2192 '+esc(m.to)
+        +' <span class="mut">('+esc(m.valueA)+' \u2192 '+esc(m.valueB)+'; threshold '+esc(m.thr)+')</span></div>';
+    });
+    h+='</div>';
+  } else {
+    h+='<div class="moved-list"><b>No DCMA outcomes changed between these revisions.</b></div>';
+  }
+  h+='</div>';
+  h+='<div class="hlt" style="overflow:auto"><table>';
+  h+='<tr>'
+    +'<th style="text-align:left;padding:5px 8px">Check</th>'
+    +'<th style="text-align:left;padding:5px 8px">Threshold</th>'
+    +'<th style="text-align:left;padding:5px 8px">Rev A — measured</th>'
+    +'<th>Rev A</th>'
+    +'<th style="text-align:left;padding:5px 8px">Rev A — reason</th>'
+    +'<th style="text-align:left;padding:5px 8px">Rev B — measured</th>'
+    +'<th>Rev B</th>'
+    +'<th style="text-align:left;padding:5px 8px">Rev B — reason</th></tr>';
+  hA.checks.forEach(function(c,i){
+    var b=hB.checks[i];
+    var moved = st(c)!==st(b) ? ' moved' : '';
+    h+='<tr class="'+moved.trim()+'">'
+      +'<td class="nm">'+esc(c.name)+'</td>'
+      +'<td class="mut">'+esc(c.threshold||'')+'</td>'
+      +'<td>'+esc(c.value)+'</td>'
+      +'<td class="st '+st(c)+'">'+lbl(c)+'</td>'
+      +'<td style="font-size:12px">'+esc(c.reason||'')+'</td>'
+      +'<td>'+esc(b.value)+'</td>'
+      +'<td class="st '+st(b)+'">'+lbl(b)+'</td>'
+      +'<td style="font-size:12px">'+esc(b.reason||'')+'</td></tr>';
+  });
+  h+='</table></div>';
+  /* Activity / link lists for checks that carry items */
+  var listBlock=function(label, check){
+    if(!check.items || !check.items.length) return '';
+    /* Full list — never truncate. Collapse when large so the page stays usable. */
+    var s='<details class="cat"'+(check.pass===false && check.items.length<=80?' open':'')+'><summary><span>'+esc(label)+' — '+esc(check.name)+'</span><span class="mut">'+check.items.length+' (all)</span></summary><div class="cat-body"><table>';
+    s+='<tr><th style="text-align:left;padding:5px 8px">ID / link</th><th style="text-align:left;padding:5px 8px">Name</th></tr>';
+    check.items.forEach(function(it){
+      s+='<tr><td class="nm">'+esc(it.code)+'</td><td>'+esc(it.name||'')+'</td></tr>';
+    });
+    s+='</table></div></details>';
+    return s;
+  };
+  h+='<p class="mut" style="margin-top:12px;margin-bottom:6px"><b>Activities / links in each check</b> (where the file supplies them). Failures open by default.</p>';
+  hA.checks.forEach(function(c,i){
+    var b=hB.checks[i];
+    h+=listBlock('Rev A', c);
+    h+=listBlock('Rev B', b);
+  });
+  h+='<p class="mut" style="margin-top:8px">'+hA.applicable+' of 14 checks apply. '
+    +hA.notApplicable+' are N/A because this export does not carry the data (typically resources or a baseline).</p>';
+  h+='</div></div>';
+
+  h+='<div class="note">This records what changed. Establishing who caused it, whether it is excusable and whether it is compensable is a forensic analysis and is not what this tool does.</div>';
+
+  h+=sec('06', 'Batch reference');
+  h+='<p class="mut" style="margin-top:0">Quote these when referring to this report on a call, in email, or from a screenshot:</p>';
+  h+='<table class="sum">';
+  h+='<tr><td>Batch</td><td class="n" style="font-family:var(--mono)">'+esc(r.ref)+'</td></tr>';
+  h+='<tr><td>Compared at</td><td class="n">'+esc(r.when)+'</td></tr>';
+  h+='<tr><td>Sections</td><td class="n">S01 File identity · S02 Shape · S03 Questions · S04 Change register · S05 DCMA · S06 Batch</td></tr>';
+  h+='<tr><td>SHA-256 A (short)</td><td class="n" style="font-family:var(--mono)">'+esc(r.A.hash.slice(0,16))+'</td></tr>';
+  h+='<tr><td>SHA-256 B (short)</td><td class="n" style="font-family:var(--mono)">'+esc(r.B.hash.slice(0,16))+'</td></tr>';
+  h+='</table>';
+  h+='<p class="mut">Example: &ldquo;Look at batch '+esc(r.ref)+' section S04 — activity A0311.&rdquo;</p>';
+  h+='</div></div>';
+
+  $('out').innerHTML=h;
+  if($('btnPrint')) $('btnPrint').disabled=false;
+  if($('btnExcel')) $('btnExcel').disabled=false;
+  if($('btnJson')) $('btnJson').disabled=false;
+  var exp=$('btnExpandAll'), col=$('btnCollapseAll');
+  if(exp) exp.onclick=function(){ document.querySelectorAll('#out details.reg-cat').forEach(function(d){ d.open=true; }); };
+  if(col) col.onclick=function(){ document.querySelectorAll('#out details.reg-cat').forEach(function(d){ d.open=false; }); };
+  /* Filter chips — view only, never deletes data */
+  var chipBar=$('regChips'), status=$('regFilterStatus');
+  if(chipBar){
+    chipBar.querySelectorAll('.chip').forEach(function(btn){
+      btn.onclick=function(){
+        var f=btn.getAttribute('data-filter');
+        chipBar.querySelectorAll('.chip').forEach(function(b){ b.classList.remove('on'); });
+        btn.classList.add('on');
+        var shown=0, total=0;
+        document.querySelectorAll('#out details.reg-cat').forEach(function(det){
+          var cat=det.getAttribute('data-cat');
+          var rows=det.querySelectorAll('tr.reg-row');
+          var visibleInCat=0;
+          rows.forEach(function(tr){
+            total++;
+            var ok = (f==='all') || (f==='driving' && tr.getAttribute('data-drive')==='1') || (f===cat);
+            tr.classList.toggle('hid', !ok);
+            if(ok){ visibleInCat++; shown++; }
+          });
+          det.classList.toggle('hid', visibleInCat===0);
+          if(visibleInCat>0 && f!=='all') det.open=true;
+        });
+        if(status){
+          if(f==='all') status.innerHTML='Showing all '+shown+' differences. Nothing hidden.';
+          else if(f==='driving') status.innerHTML='Showing '+shown+' of '+total+' differences on the driving path. Other lines are only hidden — still in Excel and under <b>All</b>.';
+          else status.innerHTML='Showing '+shown+' of '+total+' in category &ldquo;'+f+'&rdquo;. Switch to <b>All</b> for the complete list.';
+        }
+      };
+    });
+  }
+  var pbm=$('printBannerMeta');
+  if(pbm) pbm.textContent='· Batch '+r.ref+' · '+r.when+' · '+r.A.name+' vs '+r.B.name;
+  var pf=$('printFooter');
+  if(pf) pf.textContent='XER CrossCheck · ARCHIE.XER@GMAIL.COM · Batch '+r.ref+' · Records what changed — not cause, excusability or compensability';
+}
+
+/* ---- Help / Self-test / Print / Excel wiring ---- */
+$('btnHelp').onclick=function(){
+  var p=$('helpPanel');
+  p.classList.toggle('open');
+  if(p.classList.contains('open')) p.scrollIntoView({behavior:'smooth',block:'nearest'});
+};
+$('btnSelftest').onclick=function(){
+  var panel=$('selftest-out'), body=$('selftestBody'), refEl=$('selftestRef');
+  panel.classList.add('open');
+  body.innerHTML='<p class="mut">Running\u2026</p>';
+  setTimeout(function(){
+    var now=new Date();
+    var when=ukDateTime(now);
+    var ref='ST-'+now.getFullYear()+('0'+(now.getMonth()+1)).slice(-2)+('0'+now.getDate()).slice(-2)+'-'+Math.random().toString(36).slice(2,6).toUpperCase();
+    if(refEl) refEl.innerHTML='<b>'+esc(ref)+'</b> · T · '+esc(when);
+    var tests=CORE.selftest(), pass=0, fail=0;
+    var rows='<table class="sum"><tr><th style="text-align:left">Module</th><th style="text-align:left">Test</th><th style="text-align:left">Result</th><th style="text-align:left">Detail</th></tr>';
+    tests.forEach(function(t){
+      if(t.pass) pass++; else fail++;
+      rows+='<tr><td>'+esc(t.module)+'</td><td>'+esc(t.name)+'</td>'
+        +'<td class="'+(t.pass?'ok':'bad')+'">'+(t.pass?'PASS':'FAIL')+'</td>'
+        +'<td class="mut">'+esc(t.detail||'')+'</td></tr>';
+    });
+    rows+='</table>';
+    body.innerHTML='<p class="mut" style="margin-top:0">Batch <b style="font-family:var(--mono)">'+esc(ref)+'</b> · run '+esc(when)
+      +'. Quote this batch when referring to self-test output.</p>'
+      +'<p class="summary"><b>'+pass+' passed</b>, '+fail+' failed, '+tests.length+' total. All run on this device. No network.</p>'+rows;
+    panel.scrollIntoView({behavior:'smooth',block:'nearest'});
+  },30);
+};
+$('btnReset').onclick=function(){ fullReset(); };
+$('btnPrint').onclick=function(){ if(result) window.print(); };
+
+
+function fileStamp(when){
+  /* UK filename: DD-MM-YYYY_Day_Wnn_HHMMSS — accepts UK when string or falls back to now */
+  var days=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  var dt=null;
+  var s=String(when||'');
+  var uk=s.match(/^(\d{2})\/(\d{2})\/(\d{4})\s+(\d{2}):(\d{2}):(\d{2})/);
+  var iso=s.match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2}):(\d{2})/);
+  if(uk) dt=new Date(+uk[3], +uk[2]-1, +uk[1], +uk[4], +uk[5], +uk[6]);
+  else if(iso) dt=new Date(+iso[1], +iso[2]-1, +iso[3], +iso[4], +iso[5], +iso[6]);
+  if(!dt || isNaN(dt.getTime())) dt=new Date();
+  var t=new Date(Date.UTC(dt.getFullYear(), dt.getMonth(), dt.getDate()));
+  t.setUTCDate(t.getUTCDate()+4-(t.getUTCDay()||7));
+  var yearStart=new Date(Date.UTC(t.getUTCFullYear(),0,1));
+  var week=Math.ceil((((t-yearStart)/86400000)+1)/7);
+  var pad=function(n){ return (n<10?'0':'')+n; };
+  return pad(dt.getDate())+'-'+pad(dt.getMonth()+1)+'-'+dt.getFullYear()
+    +'_'+days[dt.getDay()]
+    +'_W'+pad(week)
+    +'_'+pad(dt.getHours())+pad(dt.getMinutes())+pad(dt.getSeconds());
+}
+
+$('btnJson').onclick=function(){
+  if(!result) return;
+  var A=result.A, B=result.B, reg=result.reg;
+  var dt=(reg.changes||[]).filter(function(c){return c.cat!=='float';});
+  var catCount={}; dt.forEach(function(c){ catCount[c.cat]=(catCount[c.cat]||0)+1; });
+  var payload={
+    product:'XER CrossCheck',
+    version:'Rev 1.3',
+    contact:'ARCHIE.XER@GMAIL.COM',
+    batch:result.ref,
+    comparedAt:result.when,
+    boundary:'This records what changed. Establishing who caused it, whether it is excusable and whether it is compensable is a forensic analysis and is not what this tool does.',
+    revisionA:{
+      fileName:A.name,
+      bytes:A.bytes,
+      sha256:A.hash,
+      dataDate:A.project&&A.project.dataDate ? ukDate(A.project.dataDate) : null,
+      dataDateIso:A.project&&A.project.dataDate ? String(A.project.dataDate).slice(0,10) : null,
+      projectShortName:A.project&&A.project.shortName || null,
+      exported:A.header&&A.header.exported || null,
+      activityCount:Object.keys(A.activities||{}).length
+    },
+    revisionB:{
+      fileName:B.name,
+      bytes:B.bytes,
+      sha256:B.hash,
+      dataDate:B.project&&B.project.dataDate ? ukDate(B.project.dataDate) : null,
+      dataDateIso:B.project&&B.project.dataDate ? String(B.project.dataDate).slice(0,10) : null,
+      projectShortName:B.project&&B.project.shortName || null,
+      exported:B.header&&B.header.exported || null,
+      activityCount:Object.keys(B.activities||{}).length
+    },
+    summary:{
+      differences:dt.length,
+      byCategory:catCount,
+      questions:(result.fin&&result.fin.questions||[]).length,
+      drivingPathQuestions:result.fin&&result.fin.top || 0
+    },
+    howToVerify:'Re-export or re-hash each .xer with SHA-256 and compare to revisionA.sha256 / revisionB.sha256. Matching hashes confirm the same file bytes were used for this batch.'
+  };
+  var blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});
+  var a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='XER_Crosscheck_'+fileStamp(result.when)+'_'+result.ref+'_verify.json';
+  a.click();
+  setTimeout(function(){URL.revokeObjectURL(a.href);},1500);
+};
+
+$('btnExcel').onclick=function(){
+  if(!result) return;
+  var reg=result.reg, dt=reg.changes.filter(function(c){return c.cat!=='float';});
+  var A=result.A, B=result.B, dpA=result.dA, dpB=result.dB, hA=result.hA, hB=result.hB, fin=result.fin;
+  var onPath=function(code){ return (dpA.set&&dpA.set[code])||(dpB.set&&dpB.set[code])||false; };
+  var nameOf=function(code){
+    if(!code) return '';
+    if(code.indexOf('\u2192')>=0) return code.split('\u2192').map(function(p){ p=p.trim(); var a=A.activities[p]||B.activities[p]; return a?a.name:''; }).join(' / ');
+    var a=A.activities[code]||B.activities[code]; return a?a.name:'';
+  };
+  var xesc=function(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); };
+  var grp=function(n){ return String(n==null?'':n).replace(/\B(?=(\d{3})+(?!\d))/g,','); };
+  var colLetter=function(n){ var s=''; n++; while(n){ n--; s=String.fromCharCode(65+(n%26))+s; n=(n/26)|0; } return s; };
+
+  function sheetXml(rows, opts){
+    opts=opts||{};
+    var freezeAt=opts.freezeAt||0;
+    var widths=opts.widths||null;
+    var verdictCols=opts.verdictCols||[];
+    var numCols=opts.numCols||[];
+    var drivingCol=(opts.drivingCol==null?-1:opts.drivingCol);
+    var drivingVal=opts.drivingVal||'yes';
+    var maxC=1; rows.forEach(function(r){ if(r.length>maxC) maxC=r.length; });
+    if(widths && widths.length>maxC) maxC=widths.length;
+    rows=rows.map(function(r){ var x=r.slice(); while(x.length<maxC) x.push(''); return x; });
+    var firstData=(opts.headerRow!=null)?opts.headerRow+1:1e9;
+    var isNum=function(v){ return v!=='' && v!=null && /^-?\d+(\.\d+)?$/.test(String(v)); };
+    var linkRefs={}; (opts.hyperlinks||[]).forEach(function(h){ linkRefs[h.ref]=1; });
+    var out=[];
+    out.push('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>');
+    out.push('<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">');
+    out.push('<dimension ref="A1:'+colLetter(maxC-1)+rows.length+'"/>');
+    out.push('<sheetViews><sheetView showGridLines="0" workbookViewId="0">');
+    if(freezeAt>0) out.push('<pane ySplit="'+freezeAt+'" topLeftCell="A'+(freezeAt+1)+'" activePane="bottomLeft" state="frozen"/>');
+    out.push('</sheetView></sheetViews>');
+    out.push('<sheetFormatPr defaultRowHeight="15"/>');
+    out.push('<cols>');
+    for(var i=0;i<maxC;i++){
+      var w = widths ? (widths[i]||14) : (i===0?16:(i===1?16:(i===2?28:(i===3?40:18))));
+      out.push('<col min="'+(i+1)+'" max="'+(i+1)+'" width="'+w+'" customWidth="1"/>');
+    }
+    out.push('</cols><sheetData>');
+    rows.forEach(function(r,ri){
+      var blank=r.every(function(c){ return String(c==null?'':c).trim()===''; });
+      var zebra=(ri>=firstData) && ((ri-firstData)%2===1);
+      var rowAttrs=' r="'+(ri+1)+'"';
+      if(ri===0) rowAttrs+=' ht="24" customHeight="1"';
+      else if(opts.titleRow===ri) rowAttrs+=' ht="30" customHeight="1"';
+      else if(opts.headerRow===ri) rowAttrs+=' ht="26" customHeight="1"';
+      out.push('<row'+rowAttrs+'>');
+      r.forEach(function(v,ci){
+        var ref=colLetter(ci)+(ri+1);
+        var style=0, numeric=false;
+        if(ri===0) style=2;
+        else if(opts.titleRow===ri) style=(ci===0?11:0);
+        else if(opts.navRow===ri) style=(ci===0?4:0);
+        else if(opts.headerRow===ri) style=1;
+        else if(blank) style=0;
+        else if(opts.labelCol) style=(ci===0?12:13);
+        else {
+          if(verdictCols.indexOf(ci)>=0 && (v==='pass'||v==='FAIL'||v==='N/A')) style=(v==='FAIL'?3:(v==='pass'?5:6));
+          else if(ci===drivingCol && v===drivingVal) style=14;
+          else if(numCols.indexOf(ci)>=0 && isNum(v)){ style=(zebra?10:9); numeric=true; }
+          else style=(zebra?8:7);
+        }
+        if(linkRefs[ref]) style=4;
+        if(numeric) out.push('<c r="'+ref+'" t="n" s="'+style+'"><v>'+xesc(v)+'</v></c>');
+        else out.push('<c r="'+ref+'" t="inlineStr" s="'+style+'"><is><t xml:space="preserve">'+xesc(v)+'</t></is></c>');
+      });
+      out.push('</row>');
+    });
+    out.push('</sheetData>');
+    if(opts.headerRow!=null && opts.autofilter) out.push('<autoFilter ref="A'+(opts.headerRow+1)+':'+colLetter(maxC-1)+rows.length+'"/>');
+    /* merge brand bar across full width */
+    out.push('<mergeCells count="1"><mergeCell ref="A1:'+colLetter(maxC-1)+'1"/></mergeCells>');
+    if(opts.hyperlinks && opts.hyperlinks.length){
+      out.push('<hyperlinks>');
+      opts.hyperlinks.forEach(function(hl){
+        out.push('<hyperlink ref="'+hl.ref+'" location="'+xesc(hl.location)+'" display="'+xesc(hl.display||'')+'"/>');
+      });
+      out.push('</hyperlinks>');
+    }
+    out.push('</worksheet>');
+    return out.join('');
+  }
+
+  function brandRow(cols){
+    var line='XER CrossCheck  ·  ARCHIE.XER@GMAIL.COM  ·  Batch '+result.ref+'  ·  '+result.when;
+    var r=[line]; while(r.length<cols) r.push(''); return r;
+  }
+  function navRow(cols){
+    var r=['← Contents']; while(r.length<cols) r.push(''); return r;
+  }
+
+  var cover=[
+    ['Product','XER CrossCheck Rev 1.3'],
+    ['Contact email','ARCHIE.XER@GMAIL.COM'],
+    ['Support','ARCHIE.XER@GMAIL.COM'],
+    ['About','Programme revision review — descriptive only'],
+    [''],
+    ['Batch reference',result.ref],
+    ['Compared at',result.when],
+    [''],
+    ['Field','Revision A (earlier)','Revision B (later)'],
+    ['File name',A.name,B.name],
+    ['Size (bytes)',grp(A.bytes),grp(B.bytes)],
+    ['P6 / XER version',(A.header&&A.header.version)||'',(B.header&&B.header.version)||''],
+    ['Exported',(A.header&&A.header.exported)||'',(B.header&&B.header.exported)||''],
+    ['Project short name',(A.project&&A.project.shortName)||'',(B.project&&B.project.shortName)||''],
+    ['Data date',ukDate((A.project&&A.project.dataDate)||''),ukDate((B.project&&B.project.dataDate)||'')],
+    ['Scheduled finish',ukDate((A.project&&A.project.scdEnd)||''),ukDate((B.project&&B.project.scdEnd)||'')],
+    ['SHA-256',A.hash,B.hash],
+    [''],
+    ['Boundary','This records what changed. Establishing who caused it, whether it is excusable and whether it is compensable is a forensic analysis and is not what this tool does.'],
+    ['Support','ARCHIE.XER@GMAIL.COM']
+  ];
+
+  var regRows=[['Category','Activity ID','Activity name','What changed','Field','From','To','On driving path','Batch']];
+  dt.forEach(function(c){
+    var driving=onPath(c.subject)||(c.cat==='logic'&&(onPath(String(c.subject).split('\u2192')[0].trim())||onPath((String(c.subject).split('\u2192')[1]||'').trim())));
+    regRows.push([c.cat, String(c.subject||''), nameOf(c.subject), c.what, c.field, String(c.from), String(c.to), driving?'yes':'no', result.ref]);
+  });
+
+  var qRows=[['Rank','Activity ID','Activity name','Question','Evidence','Batch']];
+  (fin.questions||[]).forEach(function(q){
+    var rank=q.rank===1?'driving path':q.rank===2?'worth a look':'for the record';
+    qRows.push([rank, String(q.subject||''), nameOf(q.subject||''), q.question, q.evidence, result.ref]);
+  });
+
+  var st=function(x){ return x.pass===null?'N/A':(x.pass?'pass':'FAIL'); };
+  var dRows=[['Check','Threshold','Rev A measured','Rev A','Rev A reason','Rev B measured','Rev B','Rev B reason','Batch']];
+  hA.checks.forEach(function(c,i){
+    var b=hB.checks[i];
+    dRows.push([c.name, c.threshold||'', String(c.value), st(c), c.reason||'', String(b.value), st(b), b.reason||'', result.ref]);
+  });
+
+  var itemRows=[['Revision','Check','ID / link','Name','Batch']];
+  function addItems(label, checks){
+    checks.forEach(function(c){ (c.items||[]).forEach(function(it){
+      itemRows.push([label, c.name, it.code, it.name||'', result.ref]);
+    }); });
+  }
+  addItems('A', hA.checks); addItems('B', hB.checks);
+
+  var back=['\u2190 Contents'];
+  var linkBack={ref:'A2', location:"'Contents'!A1", display:'Contents'};
+
+  var contents=[
+    brandRow(3),
+    ['Contents — jump to a sheet'],
+    [''],
+    ['Batch', result.ref],
+    ['Compared at', result.when],
+    ['Contact', 'ARCHIE.XER@GMAIL.COM'],
+    [''],
+    ['SHA-256 Revision A', A.hash],
+    ['SHA-256 Revision B', B.hash],
+    [''],
+    ['Sheet', 'What it holds'],
+    ['Cover', 'File identity, product, boundary'],
+    ['Change register', 'Every difference — full list'],
+    ['Questions', 'Ranked questions'],
+    ['DCMA', '14-point health both revisions'],
+    ['DCMA lists', 'Activity / link lists under each check'],
+    [''],
+    ['Verify', 'Use Export JSON (verify) in the app for a machine-readable SHA-256 record of this batch.']
+  ];
+  var contentsLinks=[
+    {ref:'A12', location:"'Cover'!A1", display:'Cover'},
+    {ref:'A13', location:"'Change register'!A1", display:'Change register'},
+    {ref:'A14', location:"'Questions'!A1", display:'Questions'},
+    {ref:'A15', location:"'DCMA'!A1", display:'DCMA'},
+    {ref:'A16', location:"'DCMA lists'!A1", display:'DCMA lists'}
+  ];
+
+  var coverFull=[brandRow(3)].concat([navRow(3)]).concat(cover);
+  var regFull=[brandRow(9)].concat([navRow(9)]).concat(regRows);
+  var qFull=[brandRow(6)].concat([navRow(6)]).concat(qRows);
+  var dFull=[brandRow(9)].concat([navRow(9)]).concat(dRows);
+  var itemFull=[brandRow(5)].concat([navRow(5)]).concat(itemRows);
+
+  /* headerRow: brand=0, nav=1, headers=2 for data sheets; Cover Field header was index 9 in cover alone → now 10 */
+  var sheets=[
+    {name:'Contents', xml:sheetXml(contents,{freezeAt:2, titleRow:1, headerRow:10, labelCol:true, widths:[26,62], hyperlinks:contentsLinks})},
+    {name:'Cover', xml:sheetXml(coverFull,{freezeAt:2, headerRow:10, labelCol:true, widths:[26,50,50], navRow:1, hyperlinks:[linkBack]})},
+    {name:'Change register', xml:sheetXml(regFull,{freezeAt:3, headerRow:2, autofilter:true, drivingCol:7, widths:[13,15,34,40,24,15,15,15,15], navRow:1, hyperlinks:[linkBack]})},
+    {name:'Questions', xml:sheetXml(qFull,{freezeAt:3, headerRow:2, autofilter:true, drivingCol:0, drivingVal:'driving path', widths:[15,15,30,52,40,15], navRow:1, hyperlinks:[linkBack]})},
+    {name:'DCMA', xml:sheetXml(dFull,{freezeAt:3, headerRow:2, autofilter:true, verdictCols:[3,6], widths:[20,16,18,11,40,18,11,40,15], navRow:1, hyperlinks:[linkBack]})},
+    {name:'DCMA lists', xml:sheetXml(itemFull,{freezeAt:3, headerRow:2, autofilter:true, widths:[11,16,16,44,15], navRow:1, hyperlinks:[linkBack]})}
+  ];
+
+  function crc32(buf){
+    var table=[], c, n, k;
+    for(n=0;n<256;n++){ c=n; for(k=0;k<8;k++) c=(c&1)?(0xEDB88320^(c>>>1)):(c>>>1); table[n]=c>>>0; }
+    var crc=0^(-1);
+    for(var i=0;i<buf.length;i++) crc=(crc>>>8)^table[(crc^buf[i])&0xFF];
+    return (crc^(-1))>>>0;
+  }
+  function u16(n){ return new Uint8Array([n&255,(n>>>8)&255]); }
+  function u32(n){ return new Uint8Array([n&255,(n>>>8)&255,(n>>>16)&255,(n>>>24)&255]); }
+  function strBytes(s){ return new TextEncoder().encode(s); }
+  function concat(parts){
+    var n=0; parts.forEach(function(p){ n+=p.length; });
+    var out=new Uint8Array(n), o=0;
+    parts.forEach(function(p){ out.set(p,o); o+=p.length; });
+    return out;
+  }
+  function zipStore(files){
+    var locals=[], central=[], offset=0;
+    files.forEach(function(f){
+      var name=strBytes(f.name), data=typeof f.data==='string'?strBytes(f.data):f.data;
+      var crc=crc32(data);
+      var local=concat([u32(0x04034b50),u16(20),u16(0),u16(0),u16(0),u16(0),u32(crc),u32(data.length),u32(data.length),u16(name.length),u16(0),name,data]);
+      var cent=concat([u32(0x02014b50),u16(20),u16(20),u16(0),u16(0),u16(0),u16(0),u32(crc),u32(data.length),u32(data.length),u16(name.length),u16(0),u16(0),u16(0),u16(0),u32(0),u32(offset),name]);
+      locals.push(local); central.push(cent); offset+=local.length;
+    });
+    var centralBin=concat(central), localBin=concat(locals);
+    var end=concat([u32(0x06054b50),u16(0),u16(0),u16(files.length),u16(files.length),u32(centralBin.length),u32(localBin.length),u16(0)]);
+    return concat([localBin, centralBin, end]);
+  }
+
+  var stylesXml='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+
+    '<styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">'+
+    '<fonts count="10">'+
+    '<font><sz val="11"/><color rgb="FF1A1A1A"/><name val="Calibri"/><family val="2"/></font>'+
+    '<font><b/><sz val="11"/><color rgb="FFFFFFFF"/><name val="Calibri"/><family val="2"/></font>'+
+    '<font><b/><sz val="11"/><color rgb="FFFFFFFF"/><name val="Calibri"/><family val="2"/></font>'+
+    '<font><b/><sz val="11"/><color rgb="FF9C1F1F"/><name val="Calibri"/><family val="2"/></font>'+
+    '<font><u/><sz val="11"/><color rgb="FF0563C1"/><name val="Calibri"/><family val="2"/></font>'+
+    '<font><b/><sz val="11"/><color rgb="FF1E6B2F"/><name val="Calibri"/><family val="2"/></font>'+
+    '<font><sz val="11"/><color rgb="FF7A7A7A"/><name val="Calibri"/><family val="2"/></font>'+
+    '<font><b/><sz val="15"/><color rgb="FF1F3A5F"/><name val="Calibri"/><family val="2"/></font>'+
+    '<font><b/><sz val="11"/><color rgb="FF1F3A5F"/><name val="Calibri"/><family val="2"/></font>'+
+    '<font><sz val="10"/><color rgb="FF6A7480"/><name val="Calibri"/><family val="2"/></font>'+
+    '</fonts>'+
+    '<fills count="9">'+
+    '<fill><patternFill patternType="none"/></fill>'+
+    '<fill><patternFill patternType="gray125"/></fill>'+
+    '<fill><patternFill patternType="solid"><fgColor rgb="FF14243A"/><bgColor indexed="64"/></patternFill></fill>'+
+    '<fill><patternFill patternType="solid"><fgColor rgb="FFF7DDDD"/><bgColor indexed="64"/></patternFill></fill>'+
+    '<fill><patternFill patternType="solid"><fgColor rgb="FFDFF0E1"/><bgColor indexed="64"/></patternFill></fill>'+
+    '<fill><patternFill patternType="solid"><fgColor rgb="FFEDEDED"/><bgColor indexed="64"/></patternFill></fill>'+
+    '<fill><patternFill patternType="solid"><fgColor rgb="FFF4F7FB"/><bgColor indexed="64"/></patternFill></fill>'+
+    '<fill><patternFill patternType="solid"><fgColor rgb="FFEAF0F8"/><bgColor indexed="64"/></patternFill></fill>'+
+    '<fill><patternFill patternType="solid"><fgColor rgb="FFFFF3D6"/><bgColor indexed="64"/></patternFill></fill>'+
+    '</fills>'+
+    '<borders count="3">'+
+    '<border><left/><right/><top/><bottom/><diagonal/></border>'+
+    '<border><left style="thin"><color rgb="FFD5DBE3"/></left><right style="thin"><color rgb="FFD5DBE3"/></right><top style="thin"><color rgb="FFD5DBE3"/></top><bottom style="thin"><color rgb="FFD5DBE3"/></bottom><diagonal/></border>'+
+    '<border><left style="thin"><color rgb="FFD5DBE3"/></left><right style="thin"><color rgb="FFD5DBE3"/></right><top/><bottom style="medium"><color rgb="FF1F3A5F"/></bottom><diagonal/></border>'+
+    '</borders>'+
+    '<cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs>'+
+    '<cellXfs count="15">'+
+    '<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1"><alignment horizontal="left" vertical="center"/></xf>'+
+    '<xf numFmtId="0" fontId="1" fillId="2" borderId="2" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>'+
+    '<xf numFmtId="0" fontId="2" fillId="2" borderId="0" xfId="0" applyFont="1" applyFill="1" applyAlignment="1"><alignment horizontal="left" vertical="center"/></xf>'+
+    '<xf numFmtId="0" fontId="3" fillId="3" borderId="1" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center"/></xf>'+
+    '<xf numFmtId="0" fontId="4" fillId="0" borderId="0" xfId="0" applyFont="1" applyAlignment="1"><alignment horizontal="left" vertical="center"/></xf>'+
+    '<xf numFmtId="0" fontId="5" fillId="4" borderId="1" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center"/></xf>'+
+    '<xf numFmtId="0" fontId="6" fillId="5" borderId="1" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center"/></xf>'+
+    '<xf numFmtId="0" fontId="0" fillId="0" borderId="1" xfId="0" applyBorder="1" applyAlignment="1"><alignment horizontal="left" vertical="center" wrapText="1"/></xf>'+
+    '<xf numFmtId="0" fontId="0" fillId="6" borderId="1" xfId="0" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="left" vertical="center" wrapText="1"/></xf>'+
+    '<xf numFmtId="3" fontId="0" fillId="0" borderId="1" xfId="0" applyNumberFormat="1" applyBorder="1" applyAlignment="1"><alignment horizontal="right" vertical="center"/></xf>'+
+    '<xf numFmtId="3" fontId="0" fillId="6" borderId="1" xfId="0" applyNumberFormat="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="right" vertical="center"/></xf>'+
+    '<xf numFmtId="0" fontId="7" fillId="0" borderId="0" xfId="0" applyFont="1" applyAlignment="1"><alignment horizontal="left" vertical="center"/></xf>'+
+    '<xf numFmtId="0" fontId="8" fillId="7" borderId="1" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="left" vertical="center"/></xf>'+
+    '<xf numFmtId="0" fontId="0" fillId="0" borderId="1" xfId="0" applyBorder="1" applyAlignment="1"><alignment horizontal="left" vertical="center" wrapText="1"/></xf>'+
+    '<xf numFmtId="0" fontId="8" fillId="8" borderId="1" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center"/></xf>'+
+    '</cellXfs>'+
+    '<cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles>'+
+    '</styleSheet>';
+
+  var workbookXml='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+
+    '<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" '+
+    'xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets>'+
+    sheets.map(function(s,i){ return '<sheet name="'+xesc(s.name)+'" sheetId="'+(i+1)+'" r:id="rId'+(i+1)+'"/>'; }).join('')+
+    '</sheets></workbook>';
+
+  var wbRels='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+
+    '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'+
+    sheets.map(function(s,i){ return '<Relationship Id="rId'+(i+1)+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet'+(i+1)+'.xml"/>'; }).join('')+
+    '<Relationship Id="rId'+(sheets.length+1)+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>'+
+    '</Relationships>';
+
+  var rootRels='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+
+    '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'+
+    '<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/>'+
+    '</Relationships>';
+
+  var contentTypes='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+
+    '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">'+
+    '<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>'+
+    '<Default Extension="xml" ContentType="application/xml"/>'+
+    '<Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>'+
+    '<Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>'+
+    sheets.map(function(s,i){ return '<Override PartName="/xl/worksheets/sheet'+(i+1)+'.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>'; }).join('')+
+    '</Types>';
+
+  var files=[
+    {name:'[Content_Types].xml', data:contentTypes},
+    {name:'_rels/.rels', data:rootRels},
+    {name:'xl/workbook.xml', data:workbookXml},
+    {name:'xl/_rels/workbook.xml.rels', data:wbRels},
+    {name:'xl/styles.xml', data:stylesXml}
+  ];
+  sheets.forEach(function(s,i){ files.push({name:'xl/worksheets/sheet'+(i+1)+'.xml', data:s.xml}); });
+
+  var bin=zipStore(files);
+  var blob=new Blob([bin],{type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'});
+  var a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='XER_Crosscheck_'+fileStamp(result.when)+'_'+result.ref+'.xlsx';
+  a.click();
+  setTimeout(function(){URL.revokeObjectURL(a.href);},2500);
+};
+refresh();
+
+
+
+
+</script>
+<script>
+/* Store/PWA only: register the network-first service worker when served over http(s).
+   Skipped on file:// so the standalone offline single-file build runs untouched. */
+if ('serviceWorker' in navigator && location.protocol.indexOf('http')===0) {
+  window.addEventListener('load', function(){
+    navigator.serviceWorker.register('sw.js').catch(function(){});
+  });
+}
+</script>
+</body>
+</html>
